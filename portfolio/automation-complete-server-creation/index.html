@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en-us"><head><script src="/livereload.js?port=1313&mindelay=10&v=2" data-no-instant defer></script>
+  <meta charset="utf-8">
+  <title>Complete Server Creation</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Automate server creation ">
+  <meta name="author" content="Themefisher">
+  <meta name="generator" content="Hugo 0.69.0-DEV" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="http://localhost:1313/plugins/bootstrap/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="http://localhost:1313/plugins/Ionicons/css/ionicons.min.css">
+  
+  <link rel="stylesheet" href="http://localhost:1313/plugins/magnific-popup/magnific-popup.css">
+  
+  <link rel="stylesheet" href="http://localhost:1313/plugins/slick/slick.css">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="http://localhost:1313/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="http://localhost:1313/images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="http://localhost:1313/images/favicon.png" type="image/x-icon">
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+
+<header class="navigation">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        
+        <nav class="navbar">
+          
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">
+              <img src="http://localhost:1313/images/logo.png" alt="RedLin PM AB | Your Red Hat® Linux® Expert" class="img-responsive">
+            </a>
+          </div>
+          
+          <div class="collapse navbar-collapse" id="navigation">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="http://localhost:1313/">Home</a></li>
+
+              
+              
+              <li><a href="http://localhost:1313/service">Our Skills</a></li>
+              
+              
+              
+              <li><a href="http://localhost:1313/portfolio">Portfolio</a></li>
+              
+              
+              
+              <li><a href="http://localhost:1313/contact">Contact</a></li>
+              
+              
+
+              
+
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="page-title-portfolio bg-2" style="background-image: url('http://localhost:1313/images/portfolio-project-bg.png');">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>Complete Server Creation</h1>
+          <p>Automate server creation </p>
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="portfolio-single-page section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 portfolio-item" style="margin:10px;">
+        <img class="img-responsive w-100" style="border-radius: 6px;" src="/images/portfolio/vmware.png" alt="">
+        <div class="portfolio-hover">
+          <div class="portfolio-content">
+            <a href="/images/portfolio/vmware.png" class="portfolio-popup"><i class="icon ion-search"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5 media-padding-special">
+        <div class="project-details">
+          <h4>Project Details</h4>
+          <ul>
+            
+            <li><span style="width: 155px">Client </span> <strong>Former Employer</strong></li>
+            
+            <li><span style="width: 155px">What we did </span> <strong>Automate the process of server creation</strong></li>
+            
+            <li><span style="width: 155px">Language </span> <strong>Perl</strong></li>
+            
+            <li><span style="width: 155px">API&#39;s </span> <strong><a href='https://www.vmware.com' target='_new'> VMware</a> / <a href='https://www.infoblox.com' target='_new'>Infoblox</a> / <a href='https://www.theforeman.org' target='_new'>Foreman</a> / <a href='https://www.itrsgroup.com/products/op5-monitor' target='_new'> OP5 Monitor</a></strong></li>
+            
+            <li><span style="width: 155px">Year </span> <strong>2013</strong></li>
+            
+            <li><span style="width: 155px">Lines of code </span> <strong>~ 4000</strong></li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="project-content mt-50 ul-override">
+          <h2 id="automate-the-process-of-server-creation">Automate the process of server creation</h2>
+<p>This project involved the automation of all the necessary steps that were needed
+to create a server in the customers infrastructure. This involves,</p>
+<ul>
+<li>Aquire an IP address from  <a href='https://www.infoblox.com' target='_new'>Infoblox</a> and create specified aliases (CNAME&rsquo;s)</li>
+<li>Create a new instance in <a href='https://www.vmware.com' target='_new'> VMware</a> with specified hardware (CPU / Memory / Disk)</li>
+<li>Attach the instance to the specified VLAN interface as well as the correct storage pool</li>
+<li>Boot the server and PXE-install it with the correct profile (this was done via PXE because of legacy reasons)</li>
+<li>Once the server was installed, <a href='https://www.puppet.com' target='_new'> puppet</a> got in place and configured it accordingly</li>
+<li>The final step was to add the newly installed server to the monitoring system <a href='https://www.itrsgroup.com/products/op5-monitor' target='_new'> OP5 Monitor</a></li>
+</ul>
+<p>This was achived with a lot of API-calls to the various infrastructure components.
+There is a lot of sanity-checking and error-handling involved since there are so
+many moving parts. The infrastructure is very standardized and this project was
+mostly about <em>gluing all the parts together</em>.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="footer-manu">
+					<ul>
+            
+					</ul>
+				</div>
+				<p class="copyright">Copyright © 2020 <a href="https://www.redlin.se">RedLin PM AB</a> All Rights Reserved</p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+
+
+
+
+<script src="http://localhost:1313/plugins/jQuery/jquery.min.js"></script>
+
+<script src="http://localhost:1313/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="http://localhost:1313/plugins/slick/slick.min.js"></script>
+
+<script src="http://localhost:1313/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+<script src="http://localhost:1313/plugins/shuffle/shuffle.min.js"></script>
+
+<script src="http://localhost:1313/plugins/google-map/gmap.js"></script>
+
+
+
+
+<script src="http://localhost:1313/js/script.min.js"></script>
+
+
+</body>
+
+</html>

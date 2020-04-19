@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en-us"><head><script src="/livereload.js?port=1313&mindelay=10&v=2" data-no-instant defer></script>
+  <meta charset="utf-8">
+  <title>Openstack and Ceph complete installation</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Complete installation of both Openstack and Ceph spanning three datacenters ">
+  <meta name="author" content="Themefisher">
+  <meta name="generator" content="Hugo 0.69.0-DEV" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="http://localhost:1313/plugins/bootstrap/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="http://localhost:1313/plugins/Ionicons/css/ionicons.min.css">
+  
+  <link rel="stylesheet" href="http://localhost:1313/plugins/magnific-popup/magnific-popup.css">
+  
+  <link rel="stylesheet" href="http://localhost:1313/plugins/slick/slick.css">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="http://localhost:1313/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="http://localhost:1313/images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="http://localhost:1313/images/favicon.png" type="image/x-icon">
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+
+<header class="navigation">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        
+        <nav class="navbar">
+          
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">
+              <img src="http://localhost:1313/images/logo.png" alt="RedLin PM AB | Your Red Hat® Linux® Expert" class="img-responsive">
+            </a>
+          </div>
+          
+          <div class="collapse navbar-collapse" id="navigation">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="http://localhost:1313/">Home</a></li>
+
+              
+              
+              <li><a href="http://localhost:1313/service">Our Skills</a></li>
+              
+              
+              
+              <li><a href="http://localhost:1313/portfolio">Portfolio</a></li>
+              
+              
+              
+              <li><a href="http://localhost:1313/contact">Contact</a></li>
+              
+              
+
+              
+
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="page-title-portfolio bg-2" style="background-image: url('http://localhost:1313/images/portfolio-project-bg.png');">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>Openstack and Ceph complete installation</h1>
+          <p>Complete installation of both Openstack and Ceph spanning three datacenters </p>
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="portfolio-single-page section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 portfolio-item" style="margin:10px;">
+        <img class="img-responsive w-100" style="border-radius: 6px;" src="/images/portfolio/automation-openstack-ceph.png" alt="">
+        <div class="portfolio-hover">
+          <div class="portfolio-content">
+            <a href="/images/portfolio/automation-openstack-ceph.png" class="portfolio-popup"><i class="icon ion-search"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5 media-padding-special">
+        <div class="project-details">
+          <h4>Project Details</h4>
+          <ul>
+            
+            <li><span style="width: 155px">Client </span> <strong>Former Employer</strong></li>
+            
+            <li><span style="width: 155px">What we did </span> <strong>Complete installation of Openstack and Ceph</strong></li>
+            
+            <li><span style="width: 155px">Year </span> <strong>2018 / 2019</strong></li>
+            
+            <li><span style="width: 155px">Products </span> <strong>Red Hat Openstack Platform</strong></li>
+            
+            <li><span style="width: 155px"> </span> <strong>Red Hat Ceph Storage</strong></li>
+            
+            <li><span style="width: 155px">Datacenters </span> <strong>3</strong></li>
+            
+            <li><span style="width: 155px">Nodes </span> <strong>~ 40</strong></li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="project-content mt-50 ul-override">
+          <h2 id="a-complete-installation-of-red-hat-openstack-and-red-hat-ceph-storage">A Complete installation of Red Hat Openstack and Red Hat Ceph Storage</h2>
+<p>The goal of this project was a scalable internal cloud platform, and the reason the
+customer needed this boiled down to a few key points,</p>
+<ul>
+<li>Customers (ie. devolopers and product owners) required an API (ie. cloud functionality) to write infrastructure as code</li>
+<li>They needed to get a way from separated hypervisors with separate configuartion (no scalability)</li>
+<li>They needed scalable storage and not individual disk arrays</li>
+<li>Last but not least, they needed a modern platform for their <em>traditonal</em> VM&rsquo;s (for things like live migration between datacenters)</li>
+</ul>
+<p>This was a huge project and included,</p>
+<ul>
+<li>Determining the specification of requirements for the customer</li>
+<li>Ordering and mounting hardware</li>
+<li>Configuring and Designing the stack (storage pools etc.)</li>
+<li>Configuring and installation</li>
+<li>Designing end user usage (such as ordering project processes etc.)</li>
+<li>Hardware / Usage monitoring and regular follow ups</li>
+</ul>
+<p>The installation for the whole stack was done via an automated deployment, consisting of</p>
+<ul>
+<li>A Red Hat Director configuring and installing roughly 21 compute nodes and
+3 controllers, divided over three datacenters</li>
+<li>A Ceph Ansible Play configuring 15 storage nodes and 3 monitors</li>
+<li>Pre and post scripts that configured storage pools, projects creation, and
+user authentication and authorization (Active Directory, Kerberos and Single Sign on)</li>
+</ul>
+<p>The end result is a fully working production stack consisting of,</p>
+<ul>
+<li>3 Datacenters, ie. 3 availability zones (AZ) &ndash; both for computes and storage</li>
+<li>3 Controllers, 1 in each AZ &ndash; Handles all API&rsquo;s and routes traffic in / out from the <em>cloud</em> via neutron</li>
+<li>21 Compute nodes for computing (7 computes in each AZ)
+<ul>
+<li>17.000 vCPU&rsquo;s presented to the users</li>
+<li>12 TB vRAM presented to the users</li>
+</ul>
+</li>
+<li>15 Storage nodes with rougly 135 disks (a third of those disks was traditional HDD&rsquo;s used for rgw/s3-pools, and the rest was SSD&rsquo;s), roughly 135 TB raw data
+<ul>
+<li>3 Local storage pools with 3 replicas, all 3 in the same datacenter</li>
+<li>1 Streched storage pool with 3 replicas, 1 in each datacenter</li>
+<li>Ceph presents raw block-devices through librbd on the computes</li>
+<li>Users can use rgw / s3 to utilize object storage</li>
+</ul>
+</li>
+</ul>
+<p>On top of all that we also,</p>
+<ul>
+<li>Designed and standardized they way <em>internal cloud projects</em> was ordered and created</li>
+<li>Standardized the way traditional VM&rsquo;s was created and maintained (ie. for projects not using kubernetes / docker)
+<ul>
+<li>Standardized platform based on rhel7</li>
+<li>Configuration via puppet</li>
+<li>Authentication via Active Directory users</li>
+<li>Authorization via Active Directory groups / sudo</li>
+<li>Monitoring via check_mk</li>
+<li>Daily security updates</li>
+<li>Predifined package repositories as well as packages - packages that are not defined will be removed</li>
+<li>Logs via splunk</li>
+<li>Metrics via Telegraf -&gt; InfluxDB presented via Grafana</li>
+<li>All of the above where created (and removed) automatically with Ansible Play&rsquo;s</li>
+</ul>
+</li>
+<li>Created a portal for adminstrating Active Directory users and groups for access to the cloud-solution</li>
+</ul>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="footer-manu">
+					<ul>
+            
+					</ul>
+				</div>
+				<p class="copyright">Copyright © 2020 <a href="https://www.redlin.se">RedLin PM AB</a> All Rights Reserved</p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+
+
+
+
+<script src="http://localhost:1313/plugins/jQuery/jquery.min.js"></script>
+
+<script src="http://localhost:1313/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="http://localhost:1313/plugins/slick/slick.min.js"></script>
+
+<script src="http://localhost:1313/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+<script src="http://localhost:1313/plugins/shuffle/shuffle.min.js"></script>
+
+<script src="http://localhost:1313/plugins/google-map/gmap.js"></script>
+
+
+
+
+<script src="http://localhost:1313/js/script.min.js"></script>
+
+
+</body>
+
+</html>

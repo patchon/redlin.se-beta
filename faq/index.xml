@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Frequently Asked Questions on RedLin PM AB | Your Red Hat® Linux® Expert</title>
+    <link>http://localhost:1313/faq/</link>
+    <description>Recent content in Frequently Asked Questions on RedLin PM AB | Your Red Hat® Linux® Expert</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; 2020 [RedLin PM AB](https://www.redlin.se) All Rights Reserved</copyright>
+    <lastBuildDate>Mon, 23 Dec 2019 13:05:29 +0600</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/faq/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

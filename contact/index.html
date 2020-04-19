@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en-us"><head><script src="/livereload.js?port=1313&mindelay=10&v=2" data-no-instant defer></script>
+  <meta charset="utf-8">
+  <title>Drop Us A Note</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="We would love to hear from you">
+  <meta name="author" content="Themefisher">
+  <meta name="generator" content="Hugo 0.69.0-DEV" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="http://localhost:1313/plugins/bootstrap/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="http://localhost:1313/plugins/Ionicons/css/ionicons.min.css">
+  
+  <link rel="stylesheet" href="http://localhost:1313/plugins/magnific-popup/magnific-popup.css">
+  
+  <link rel="stylesheet" href="http://localhost:1313/plugins/slick/slick.css">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="http://localhost:1313/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="http://localhost:1313/images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="http://localhost:1313/images/favicon.png" type="image/x-icon">
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+
+<header class="navigation">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        
+        <nav class="navbar">
+          
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">
+              <img src="http://localhost:1313/images/logo.png" alt="RedLin PM AB | Your Red Hat® Linux® Expert" class="img-responsive">
+            </a>
+          </div>
+          
+          <div class="collapse navbar-collapse" id="navigation">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="http://localhost:1313/">Home</a></li>
+
+              
+              
+              <li><a href="http://localhost:1313/service">Our Skills</a></li>
+              
+              
+              
+              <li><a href="http://localhost:1313/portfolio">Portfolio</a></li>
+              
+              
+              
+              <li><a href="http://localhost:1313/contact">Contact</a></li>
+              
+              
+
+              
+
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="page-title bg-2" style="background-image: url('http://localhost:1313/images/contact-bg.jpg');">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>Drop Us A Note</h1>
+          <p>We would love to hear from you</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<iframe name="votar" style="display:none;"></iframe>
+
+<section class="contact-form" style="height:calc(100vh - 450px);">
+  <div class="container">
+    <div class="row showme" style="font-size: large;width: 30%;margin: auto;padding-top: 90px;padding-bottom: 140px; display:none">
+      Thanks for the email, we'll be in touch!
+    </div>
+    <div class="row hideme">
+      <form onsubmit="return handle_submit();" id="foo" method="POST" action="https://formspree.io/xaydgpnq" target="votar">
+        <div class="col-md-6 col-sm-12">
+          <div class="block">
+            <div class="form-group">
+              <input id="user_name" name="user_name" type="text" class="form-control" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <input id="user_email" name="user_email" type="email" class="form-control" placeholder="Email Address" required>
+            </div>
+            <div class="form-group">
+              <input id="user_subject" name="user_subject" type="text" class="form-control" placeholder="Subject" required>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="block">
+            <div class="form-group-2">
+              <textarea id="user_message" name="user_message" class="form-control" rows="4" placeholder="Your Message" required></textarea>
+            </div>
+            <button class="btn btn-default" type="submit">Send Message</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    
+  </div>
+</section>
+
+<script>
+
+  function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+  }
+
+  async function handle_submit(){
+    console.log("handling submit");
+    await sleep(1000);
+    $(".hideme").hide();
+    $(".showme").show();
+  }
+
+  </script>
+<footer class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="footer-manu">
+					<ul>
+            
+					</ul>
+				</div>
+				<p class="copyright">Copyright © 2020 <a href="https://www.redlin.se">RedLin PM AB</a> All Rights Reserved</p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+
+
+
+
+<script src="http://localhost:1313/plugins/jQuery/jquery.min.js"></script>
+
+<script src="http://localhost:1313/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="http://localhost:1313/plugins/slick/slick.min.js"></script>
+
+<script src="http://localhost:1313/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+<script src="http://localhost:1313/plugins/shuffle/shuffle.min.js"></script>
+
+<script src="http://localhost:1313/plugins/google-map/gmap.js"></script>
+
+
+
+
+<script src="http://localhost:1313/js/script.min.js"></script>
+
+
+</body>
+
+</html>
