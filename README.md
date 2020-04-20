@@ -1,2 +1,0 @@
-# redlin
-redlin homepage
