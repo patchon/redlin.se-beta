@@ -28,7 +28,6 @@
   <!--Favicon-->
   <link rel="shortcut icon" href="https://www.redlin.se/images/favicon.png" type="image/x-icon">
   <link rel="icon" href="https://www.redlin.se/images/favicon.png" type="image/x-icon">
-
 </head><body>
 <!-- preloader start -->
 <div class="preloader">
@@ -36,7 +35,7 @@
 </div>
 <!-- preloader end -->
 
-<header class="navigation fix-navigation-padding">
+<header class="navigation fix-header-navigation-padding">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -50,7 +49,7 @@
               <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="/">
-              <img src="https://www.redlin.se/images/logo.svg" alt="RedLin PM AB | Your Red Hat Linux Expert" class="img-responsive fix-logo-position">
+              <img src="https://www.redlin.se/images/logo.svg" alt="RedLin PM AB | Your Red Hat Linux Expert" class="img-responsive fix-header-logo-position">
             </a>
           </div>
           
@@ -82,14 +81,24 @@
   </div>
 </header>
 
-<section class="page-title-portfolio bg-2" style="background-image: url('https://www.redlin.se/images/portfolio-bg.png');">
+
+
+
+
+
+  
+
+
+
+
+
+<section class="page-title page-title fix-page-title-opacity-4 bg-2" style="background-image: url('https://www.redlin.se/images/portfolio/header-bg.jpg');">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="block">
           <h1>Our Portfolio</h1>
           <p>View and explore some of our earlier projects</p>
-          <p>They all include a combination of our skill sets</p>
         </div>
       </div>
     </div>
@@ -100,7 +109,7 @@
 
 
 
-<section class="portfolio-work" style="padding-bottom:260px">
+<section class="portfolio-work fix-portfolio-height-for-footer">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -113,56 +122,61 @@
               
               
               
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
               
               
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
+                
+                  
+                
                 <label class="btn btn-sm btn-primary active">
                   <input id="k" type="radio" name="shuffle-filter" value="automation">Automation
                 </label>
               
-              
-              
-                <label class="btn btn-sm btn-primary">
-                  <input type="radio" name="shuffle-filter" value="inventorying">Inventorying
+                
+                  
+                
+                <label class="btn btn-sm btn-primary ">
+                  <input id="k" type="radio" name="shuffle-filter" value="inventorying">Inventorying
                 </label>
               
-              
-              
-                <label class="btn btn-sm btn-primary">
-                  <input type="radio" name="shuffle-filter" value="reporting">Reporting
+                
+                  
+                
+                <label class="btn btn-sm btn-primary ">
+                  <input id="k" type="radio" name="shuffle-filter" value="reporting">Reporting
                 </label>
               
-              
-              
-                <label class="btn btn-sm btn-primary">
-                  <input type="radio" name="shuffle-filter" value="private">Private
+                
+                  
+                
+                <label class="btn btn-sm btn-primary ">
+                  <input id="k" type="radio" name="shuffle-filter" value="private">Private
                 </label>
-              
               
             </div>
           </div>
           <div class="row shuffle-wrapper">
             
             <div class="col-md-4 portfolio-item shuffle-item" data-groups="[&quot;automation&quot;]">
-              <span style='font-weight:400; padding-left:5px; font-size:15px'>Openstack and Ceph complete installation</span>
+              <span class="fix-portfolio-list-items-heading">Openstack and Ceph complete installation</span>
               <img src="/images/portfolio/automation-openstack-ceph.png" alt="_Openstack and Ceph complete installation">
               <div class="portfolio-hover" onclick="handle_click(&#34;https://www.redlin.se/portfolio/automation-openstack-ceph/&#34;)">
                 <div class="portfolio-content">
@@ -173,8 +187,8 @@
             </div>
             
             <div class="col-md-4 portfolio-item shuffle-item" data-groups="[&quot;automation&quot;]">
-              <span style='font-weight:400; padding-left:5px; font-size:15px'>Complete Server Creation</span>
-              <img src="/images/portfolio/vmware.png" alt="a_Complete Server Creation">
+              <span class="fix-portfolio-list-items-heading">Complete Server Creation</span>
+              <img src="/images/portfolio/automation-complete-server-creation.png" alt="a_Complete Server Creation">
               <div class="portfolio-hover" onclick="handle_click(&#34;https://www.redlin.se/portfolio/automation-complete-server-creation/&#34;)">
                 <div class="portfolio-content">
                   <a class="h3" href="https://www.redlin.se/portfolio/automation-complete-server-creation/">Complete Server Creation</a>
@@ -184,8 +198,8 @@
             </div>
             
             <div class="col-md-4 portfolio-item shuffle-item" data-groups="[&quot;automation&quot;]">
-              <span style='font-weight:400; padding-left:5px; font-size:15px'>Infoblox Management</span>
-              <img src="/images/portfolio/infoblox.png" alt="b_Infoblox Management">
+              <span class="fix-portfolio-list-items-heading">Infoblox Management</span>
+              <img src="/images/portfolio/automation-infoblox-management.png" alt="b_Infoblox Management">
               <div class="portfolio-hover" onclick="handle_click(&#34;https://www.redlin.se/portfolio/automation-infoblox-management/&#34;)">
                 <div class="portfolio-content">
                   <a class="h3" href="https://www.redlin.se/portfolio/automation-infoblox-management/">Infoblox Management</a>
@@ -195,8 +209,8 @@
             </div>
             
             <div class="col-md-4 portfolio-item shuffle-item" data-groups="[&quot;automation&quot;]">
-              <span style='font-weight:400; padding-left:5px; font-size:15px'>Server reconfiguration</span>
-              <img src="/images/portfolio/vmware_reconfigure.png" alt="cServer reconfiguration">
+              <span class="fix-portfolio-list-items-heading">Server reconfiguration</span>
+              <img src="/images/portfolio/automation-server-reconfiguration.png" alt="cServer reconfiguration">
               <div class="portfolio-hover" onclick="handle_click(&#34;https://www.redlin.se/portfolio/automation-server-reconfiguration/&#34;)">
                 <div class="portfolio-content">
                   <a class="h3" href="https://www.redlin.se/portfolio/automation-server-reconfiguration/">Server reconfiguration</a>
@@ -206,8 +220,8 @@
             </div>
             
             <div class="col-md-4 portfolio-item shuffle-item" data-groups="[&quot;inventorying&quot;]">
-              <span style='font-weight:400; padding-left:5px; font-size:15px'>Infrastructure consistency tool</span>
-              <img src="/images/portfolio/inventory.png" alt="dInfrastructure consistency tool">
+              <span class="fix-portfolio-list-items-heading">Infrastructure consistency tool</span>
+              <img src="/images/portfolio/inventorying-infrastructure-consistensy-tool.png" alt="dInfrastructure consistency tool">
               <div class="portfolio-hover" onclick="handle_click(&#34;https://www.redlin.se/portfolio/inventorying-infrastructure-consistensy-tool/&#34;)">
                 <div class="portfolio-content">
                   <a class="h3" href="https://www.redlin.se/portfolio/inventorying-infrastructure-consistensy-tool/">Infrastructure consistency tool</a>
@@ -217,8 +231,8 @@
             </div>
             
             <div class="col-md-4 portfolio-item shuffle-item" data-groups="[&quot;reporting&quot;]">
-              <span style='font-weight:400; padding-left:5px; font-size:15px'>Incidents and requests management</span>
-              <img src="/images/portfolio/reporting-ca.png" alt="eIncidents and requests management">
+              <span class="fix-portfolio-list-items-heading">Incidents and requests management</span>
+              <img src="/images/portfolio/reporting-incidents-and-request-management.png" alt="eIncidents and requests management">
               <div class="portfolio-hover" onclick="handle_click(&#34;https://www.redlin.se/portfolio/reporting-incidents-and-request-management/&#34;)">
                 <div class="portfolio-content">
                   <a class="h3" href="https://www.redlin.se/portfolio/reporting-incidents-and-request-management/">Incidents and requests management</a>
@@ -228,8 +242,8 @@
             </div>
             
             <div class="col-md-4 portfolio-item shuffle-item" data-groups="[&quot;reporting&quot;]">
-              <span style='font-weight:400; padding-left:5px; font-size:15px'>Server patch status</span>
-              <img src="/images/portfolio/reporting-patchlevel.png" alt="fServer patch status">
+              <span class="fix-portfolio-list-items-heading">Server patch status</span>
+              <img src="/images/portfolio/reporting-server-patch-status.png" alt="fServer patch status">
               <div class="portfolio-hover" onclick="handle_click(&#34;https://www.redlin.se/portfolio/reporting-server-patch-status/&#34;)">
                 <div class="portfolio-content">
                   <a class="h3" href="https://www.redlin.se/portfolio/reporting-server-patch-status/">Server patch status</a>
@@ -239,8 +253,8 @@
             </div>
             
             <div class="col-md-4 portfolio-item shuffle-item" data-groups="[&quot;reporting&quot;]">
-              <span style='font-weight:400; padding-left:5px; font-size:15px'>Server firmware status</span>
-              <img src="/images/portfolio/reporting-firmwarelevel.png" alt="gServer firmware status">
+              <span class="fix-portfolio-list-items-heading">Server firmware status</span>
+              <img src="/images/portfolio/reporting-server-firmware-status.png" alt="gServer firmware status">
               <div class="portfolio-hover" onclick="handle_click(&#34;https://www.redlin.se/portfolio/reporting-server-firmware-status/&#34;)">
                 <div class="portfolio-content">
                   <a class="h3" href="https://www.redlin.se/portfolio/reporting-server-firmware-status/">Server firmware status</a>
@@ -250,8 +264,8 @@
             </div>
             
             <div class="col-md-4 portfolio-item shuffle-item" data-groups="[&quot;private&quot;]">
-              <span style='font-weight:400; padding-left:5px; font-size:15px'>Barnkollen - An Android application for parents</span>
-              <img src="/images/portfolio/other-barnkollen.png" alt="kBarnkollen - An Android application for parents">
+              <span class="fix-portfolio-list-items-heading">Barnkollen - An Android application for parents</span>
+              <img src="/images/portfolio/other-barnkollen-an-android-application-for-parents.png" alt="pBarnkollen - An Android application for parents">
               <div class="portfolio-hover" onclick="handle_click(&#34;https://www.redlin.se/portfolio/other-barnkollen-an-android-application-for-parents/&#34;)">
                 <div class="portfolio-content">
                   <a class="h3" href="https://www.redlin.se/portfolio/other-barnkollen-an-android-application-for-parents/">Barnkollen - An Android application for parents</a>
@@ -261,8 +275,8 @@
             </div>
             
             <div class="col-md-4 portfolio-item shuffle-item" data-groups="[&quot;reporting&quot;]">
-              <span style='font-weight:400; padding-left:5px; font-size:15px'>Weekly patch report</span>
-              <img src="/images/portfolio/reporting-patchreport.png" alt="kWeekly patch report">
+              <span class="fix-portfolio-list-items-heading">Weekly patch report</span>
+              <img src="/images/portfolio/reporting-weekly-patch-report.png" alt="Weekly patch report">
               <div class="portfolio-hover" onclick="handle_click(&#34;https://www.redlin.se/portfolio/reporting-weekly-patch-report/&#34;)">
                 <div class="portfolio-content">
                   <a class="h3" href="https://www.redlin.se/portfolio/reporting-weekly-patch-report/">Weekly patch report</a>
@@ -277,13 +291,14 @@
     </div>
   </div>
 </section>
+
 <script>
-function handle_click(url){
-  window.location.href = url;
-}
+  function handle_click(url){
+    window.location.href = url;
+  }
 </script>
 
-<footer class="footer">
+<footer class="footer fix-footer-padding">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">

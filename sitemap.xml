@@ -161,14 +161,6 @@
   </url>
   
   <url>
-    <loc>https://www.redlin.se/portfolio/other-barnkollen-an-android-application-for-parents/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.redlin.se/portfolio/reporting-weekly-patch-report/</loc>
-  </url>
-  
-  <url>
     <loc>https://www.redlin.se/author/mark-dinn/</loc>
   </url>
   
@@ -177,11 +169,15 @@
   </url>
   
   <url>
-    <loc>https://www.redlin.se/pricing/</loc>
+    <loc>https://www.redlin.se/our-skills/</loc>
   </url>
   
   <url>
-    <loc>https://www.redlin.se/our-skills/</loc>
+    <loc>https://www.redlin.se/portfolio/other-barnkollen-an-android-application-for-parents/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.redlin.se/portfolio/reporting-weekly-patch-report/</loc>
   </url>
   
 </urlset>

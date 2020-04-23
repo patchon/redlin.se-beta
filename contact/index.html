@@ -28,7 +28,6 @@
   <!--Favicon-->
   <link rel="shortcut icon" href="https://www.redlin.se/images/favicon.png" type="image/x-icon">
   <link rel="icon" href="https://www.redlin.se/images/favicon.png" type="image/x-icon">
-
 </head><body>
 <!-- preloader start -->
 <div class="preloader">
@@ -36,7 +35,7 @@
 </div>
 <!-- preloader end -->
 
-<header class="navigation fix-navigation-padding">
+<header class="navigation fix-header-navigation-padding">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -50,7 +49,7 @@
               <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="/">
-              <img src="https://www.redlin.se/images/logo.svg" alt="RedLin PM AB | Your Red Hat Linux Expert" class="img-responsive fix-logo-position">
+              <img src="https://www.redlin.se/images/logo.svg" alt="RedLin PM AB | Your Red Hat Linux Expert" class="img-responsive fix-header-logo-position">
             </a>
           </div>
           
@@ -82,7 +81,18 @@
   </div>
 </header>
 
-<section class="page-title bg-2" style="background-image: url('https://www.redlin.se/images/contact-bg.jpg');">
+
+
+
+
+
+
+  
+
+
+
+
+<section class="page-title page-title fix-page-title-opacity-6  bg-2" style="background-image: url('https://www.redlin.se/images/contact/header-bg.jpg');">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -97,15 +107,15 @@
 
 
 
-<iframe name="votar" style="display:none;"></iframe>
+<iframe name="hidden" style="display:none;"></iframe>
 
-<section class="contact-form last-minute-contact-form">
+<section class="contact-form fix-contact-form-height">
   <div class="container">
-    <div class="row showme last-minute-contact-form-center-text" style="font-size: large;width: 30%;margin: auto;padding-top: 90px;padding-bottom: 140px; display:none">
+    <div class="row showme fix-contact-thanks-message">
       Thanks for the email, we'll be in touch!
     </div>
     <div class="row hideme">
-      <form onsubmit="return handle_submit();" id="foo" method="POST" action="https://formspree.io/xaydgpnq" target="votar">
+      <form onsubmit="return handle_submit();" id="foo" method="POST" action="https://formspree.io/xaydgpnq" target="hidden">
         <div class="col-md-6 col-sm-12">
           <div class="block">
             <div class="form-group">
@@ -140,14 +150,13 @@
   }
 
   async function handle_submit(){
-    console.log("handling submit");
     await sleep(1000);
     $(".hideme").hide();
     $(".showme").show();
   }
 
   </script>
-<footer class="footer">
+<footer class="footer fix-footer-padding">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
