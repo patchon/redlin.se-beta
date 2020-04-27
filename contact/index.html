@@ -122,10 +122,53 @@
 
 <section class="contact-form fix-contact-form-height">
   <div class="container">
+
     <div class="row showme fix-contact-thanks-message">
       Thanks for the email, we'll be in touch!
     </div>
+
     <div class="row hideme">
+
+      <div class="contact-box row">
+        <div class="col-md-6 col-sm-12 fix-contact-founder-font-weight" style="display:flex;justify-content: space-between;">
+
+          
+          <div class="block fix-contact-padding">
+            <h2 class="fix-contact-founder-title-margin-padding">Patrik Martinsson</h2>
+            <span>Grundare</span>
+            <ul class="address-block fix-contact-ion-icon-size fix-contact-founder-details fix-contact-founder-details-padding">
+              <li><i class="ion-ios-email-outline"></i><span><a href="mailto:patrik@redlin.se">patrik@redlin.se</a></span></li>
+              <li><i class="ion-ios-telephone-outline"></i><span><a href="tel:&#43;46%20707%2027%2064%2096">&#43;46 707 27 64 96</a></span></li>
+            </ul>
+            <ul class="social-icons">
+              
+            </ul>
+          </div>
+
+          <div>
+            <div class="portfolio-item fix-contact-founder-image">
+              <img class="img-responsive w-100" style="border-radius: 500px;" src="/images/contact/patrik.png" alt="">
+              <div class="portfolio-hover fix-contact-image-hover" onclick="handle_click_zoom($(this))">
+                <div class="portfolio-content">
+                  <a href="/images/contact/me.png" class="portfolio-popup"><i class="icon ion-search"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+        
+        <div class="col-md-6 col-sm-12">
+          <div class="block">
+            <div class="google-map fix-contact-padding">
+              <div class="map fix-general-image-border-radius" id="map_canvas" data-zoom="18" data-latitude="59.3293" data-longitude="18.0686" data-marker="/images/contact/marker.png" data-marker-name="Stockholm City | RedLin PM AB | Your Red Hat Linux Expert"></div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
       <form onsubmit="return handle_submit();" id="foo" method="POST" action="https://formspree.io/xaydgpnq" target="hidden">
         <div class="col-md-6 col-sm-12">
           <div class="block">
@@ -150,7 +193,8 @@
         </div>
       </form>
     </div>
-    
+
+
   </div>
 </section>
 
@@ -183,6 +227,8 @@
 </footer>
 
 
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAzZxqmzGHOs1idDAOtWI55YIatr4OK8a8"></script>
 
 
 
