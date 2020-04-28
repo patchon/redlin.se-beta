@@ -122,8 +122,8 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6 portfolio-item">
-        <img class="img-responsive w-100 fix-general-image-border-radius" src="/images/portfolio/reporting-incidents-and-request-management.png" alt="">
-        <div class="portfolio-hover" onclick="handle_click_zoom($(this))">
+        <img class="img-responsive w-100 fix-general-image-border-radius" onclick='$(this).next().click()' src="/images/portfolio/reporting-incidents-and-request-management.png" alt="">
+        <div class="portfolio-hover" onclick='$(this).children().find("a").click();'>
           <div class="portfolio-content">
             <a href="/images/portfolio/reporting-incidents-and-request-management.png" class="portfolio-popup"><i class="icon ion-search"></i></a>
           </div>
