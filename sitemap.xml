@@ -3,16 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.redlin.se/faq/</loc>
-    <lastmod>2019-12-23T13:05:29+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.redlin.se/</loc>
-    <lastmod>2019-12-23T13:05:29+06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.redlin.se/tags/advice/</loc>
     <lastmod>2018-09-24T11:07:10+06:00</lastmod>
   </url>
@@ -98,6 +88,11 @@
   </url>
   
   <url>
+    <loc>https://www.redlin.se/</loc>
+    <lastmod>2018-09-24T11:07:10+06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.redlin.se/tags/retro/</loc>
     <lastmod>2018-09-24T11:07:10+06:00</lastmod>
   </url>
@@ -121,15 +116,15 @@
   </url>
   
   <url>
-    <loc>https://www.redlin.se/about/</loc>
-  </url>
-  
-  <url>
     <loc>https://www.redlin.se/author/</loc>
   </url>
   
   <url>
     <loc>https://www.redlin.se/portfolio/automation-infoblox-management/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.redlin.se/consult-profile/</loc>
   </url>
   
   <url>
