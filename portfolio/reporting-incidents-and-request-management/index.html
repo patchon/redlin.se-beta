@@ -3,111 +3,69 @@
   <meta charset="utf-8">
   <title>Incidents and requests management</title>
 
+  <!--Favicon-->
   <link rel="icon" type="image/svg+xml" href="/images/favicons/favicon.svg?v=2">
-  <link rel="alternate icon" href="/images/favicons/favicon.ico?v=2">
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png?v=1">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png?v=1">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png?v=1">
+  <link rel="alternate icon" href="/images/favicons/favicon.ico?v=2">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png?v=1">
   <link rel="manifest" href="/images/favicons/site.webmanifest?v=1">
   <link rel="mask-icon" href="/images/favicons/safari-pinned-tab.svg?v=1" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="msapplication-config" content="/images/favicons/browserconfig.xml?v=1">
   <meta name="theme-color" content="#a3c8a0">
 
-  
+  <!-- Trying to improve with preconnect for analytics -->
   <link rel="preconnect" href="https://www.google-analytics.com">
   <link rel="preconnect" href="https://www.googletagmanager.com">
   <link rel="preconnect" href="https://maps.googleapis.com">
 
-  <!-- mobile responsive meta -->
+  <!-- Mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="A web front displaying incidents and requests">
   <meta name="author" content="Patrik Martinsson RedLin PM AB">
-  <meta name="generator" content="Hugo 0.69.0-DEV" />
 
-  <script>
-    !function(n){"use strict";n.loadCSS||(n.loadCSS=function(){});var t,o=loadCSS.relpreload={};o.support=function(){var e;try{e=n.document.createElement("link").relList.supports("preload")}catch(t){e=!1}return function(){return e}}(),o.bindMediaToggle=function(t){var e=t.media||"all";function a(){t.media=e}t.addEventListener?t.addEventListener("load",a):t.attachEvent&&t.attachEvent("onload",a),setTimeout(function(){t.rel="stylesheet",t.media="only x"}),setTimeout(a,3e3)},o.poly=function(){if(!o.support())for(var t=n.document.getElementsByTagName("link"),e=0;e<t.length;e++){var a=t[e];"preload"!==a.rel||"style"!==a.getAttribute("as")||a.getAttribute("data-loadcss")||(a.setAttribute("data-loadcss",!0),o.bindMediaToggle(a))}},o.support()||(o.poly(),t=n.setInterval(o.poly,500),n.addEventListener?n.addEventListener("load",function(){o.poly(),n.clearInterval(t)}):n.attachEvent&&n.attachEvent("onload",function(){o.poly(),n.clearInterval(t)})),"undefined"!=typeof exports?exports.loadCSS=loadCSS:n.loadCSS=loadCSS}("undefined"!=typeof global?global:this);
-  </script>
-
-  <!-- plugins -->
-  
-  <link rel="preload" href="https://beta.redlin.se/plugins/bootstrap/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="https://beta.redlin.se/plugins/bootstrap/bootstrap.min.css"></noscript>
-  
+  <!-- Plugins -->
   <link rel="preload" href="https://beta.redlin.se/plugins/magnific-popup/magnific-popup.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://beta.redlin.se/plugins/magnific-popup/magnific-popup.css"></noscript>
-  
-  <link rel="preload" href="https://beta.redlin.se/plugins/Ionicons/css/ionicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="https://beta.redlin.se/plugins/Ionicons/css/ionicons.min.css"></noscript>
-  
   <link rel="preload" href="https://beta.redlin.se/plugins/slick/slick.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://beta.redlin.se/plugins/slick/slick.css"></noscript>
-  
 
   <!-- Main Stylesheet -->
-  
   <link rel="stylesheet" href="https://beta.redlin.se/scss/style.min.css" media="screen">
+</head>
 
-  <!--Favicon-->
-  <link rel="shortcut icon" href="https://beta.redlin.se/images/favicon.png" type="image/x-icon">
-  <link rel="icon" href="https://beta.redlin.se/images/favicon.png" type="image/x-icon">
-</head><body>
-<!-- preloader start -->
-<div class="preloader">
-  
-</div>
-<!-- preloader end -->
-
-<header class="navigation fix-header-navigation-padding">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        
-        <nav class="navbar">
-          
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/">
-              <img src="https://beta.redlin.se/images/logo.svg" alt="* * * BETA * * * RedLin PM AB | Your Red Hat Linux Expert" class="img-responsive fix-header-logo-position">
-            </a>
-          </div>
-          
-          <div class="collapse navbar-collapse" id="navigation">
-            <ul class="nav navbar-nav navbar-right fix-navigation-menu-padding-and-margin">
-              <li><a href="https://beta.redlin.se">Home</a></li>
-
-              
-              
-              <li><a href="https://beta.redlin.se/our-skills">Our Skills</a></li>
-              
-              
-              
-              <li><a href="https://beta.redlin.se/portfolio">Portfolio</a></li>
-              
-              
-              
-              <li><a href="https://beta.redlin.se/consult-profile">Consult Profile</a></li>
-              
-              
-              
-              <li><a href="https://beta.redlin.se/contact">Contact</a></li>
-              
-              
-
-              
-
-            </ul>
-          </div>
-        </nav>
+<body>
+	
+  <!-- Menu / Header -->
+  <header class="main-header">
+    <div class="container">
+      <div class="brand">
+        <a href="/">
+          <img class="logo" src="https://beta.redlin.se/images/logo.svg" alt="* * * BETA * * * RedLin PM AB | Your Red Hat Linux Expert">
+        </a>
       </div>
+      <div class="hamburger-nav">
+        <button class="hamburger hamburger--slider" type="button" aria-label="Menu" aria-controls="navigation" onclick='this.classList.toggle("is-active");'>
+          <label for="toggle">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </label>
+        </button>
+      </div>
+      <nav class="navigation">
+        <input type="checkbox" id="toggle" name="toggle">
+        <ul class="vertical-nav">
+          <li><a href="https://beta.redlin.se/" >Home</a></li>
+          <li><a href="https://beta.redlin.se/our-skills" >Our Skills</a></li>
+          <li><a href="https://beta.redlin.se/portfolio" >Portfolio</a></li>
+          <li><a href="https://beta.redlin.se/consult-profile" >Consult Profile</a></li>
+          <li><a href="https://beta.redlin.se/contact" >Contact</a></li>
+        </ul>
+      </nav>
     </div>
-  </div>
-</header>
+  </header>
 
 
 
