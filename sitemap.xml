@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://beta.redlin.se/</loc>
-    <lastmod>2018-09-24T11:07:10+06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://beta.redlin.se/tags/advice/</loc>
     <lastmod>2018-09-24T11:07:10+06:00</lastmod>
   </url>
@@ -89,6 +84,11 @@
   
   <url>
     <loc>https://beta.redlin.se/tags/news/</loc>
+    <lastmod>2018-09-24T11:07:10+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://beta.redlin.se/</loc>
     <lastmod>2018-09-24T11:07:10+06:00</lastmod>
   </url>
   
