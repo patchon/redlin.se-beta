@@ -41,6 +41,8 @@
 
     
 
+    
+    
 <body id="page-portfolio">
   <div id="content">
   
@@ -73,7 +75,6 @@
       </nav>
     </div>
   </header>
-
   <!-- Head Banner -->
 <section class="banner pages opacity-4" style="background-image: url('https://beta.redlin.se/images/portfolio/header-bg.webp');">
   <div class="block">
@@ -81,7 +82,6 @@
     <p>View and explore some of our earlier projects</p>
   </div>
 </section>
-
 
 
 
@@ -136,9 +136,9 @@
         <input  onclick="show_checked_category()" class="button--input" id="portfolio-input-private" type="radio" name="shuffle-filter" value="private"><label for="portfolio-input-private" class="button button--small">Private</label>
       
     </div>
-    <div class="shuffle-wrapper">
+    <div class="portfolio-items">
       
-      <div class="shuffle-item" data-category="automation">
+      <div class="portfolio-item" data-category="automation">
         <p class="">Openstack and Ceph complete installation</pn>
         <div class="image">
           <img src="/images/portfolio/automation-openstack-ceph.webp" onclick="handle_click(&#34;https://beta.redlin.se/portfolio/automation-openstack-ceph/&#34;)" alt="_Openstack and Ceph complete installation">
@@ -148,7 +148,7 @@
         </div>
       </div>
       
-      <div class="shuffle-item" data-category="automation">
+      <div class="portfolio-item" data-category="automation">
         <p class="">Complete Server Creation</pn>
         <div class="image">
           <img src="/images/portfolio/automation-complete-server-creation.webp" onclick="handle_click(&#34;https://beta.redlin.se/portfolio/automation-complete-server-creation/&#34;)" alt="a_Complete Server Creation">
@@ -158,7 +158,7 @@
         </div>
       </div>
       
-      <div class="shuffle-item" data-category="automation">
+      <div class="portfolio-item" data-category="automation">
         <p class="">Infoblox Management</pn>
         <div class="image">
           <img src="/images/portfolio/automation-infoblox-management.webp" onclick="handle_click(&#34;https://beta.redlin.se/portfolio/automation-infoblox-management/&#34;)" alt="b_Infoblox Management">
@@ -168,7 +168,7 @@
         </div>
       </div>
       
-      <div class="shuffle-item" data-category="automation">
+      <div class="portfolio-item" data-category="automation">
         <p class="">Server reconfiguration</pn>
         <div class="image">
           <img src="/images/portfolio/automation-server-reconfiguration.webp" onclick="handle_click(&#34;https://beta.redlin.se/portfolio/automation-server-reconfiguration/&#34;)" alt="cServer reconfiguration">
@@ -178,7 +178,7 @@
         </div>
       </div>
       
-      <div class="shuffle-item" data-category="inventorying">
+      <div class="portfolio-item" data-category="inventorying">
         <p class="">Infrastructure consistency tool</pn>
         <div class="image">
           <img src="/images/portfolio/inventorying-infrastructure-consistensy-tool.webp" onclick="handle_click(&#34;https://beta.redlin.se/portfolio/inventorying-infrastructure-consistensy-tool/&#34;)" alt="dInfrastructure consistency tool">
@@ -188,7 +188,7 @@
         </div>
       </div>
       
-      <div class="shuffle-item" data-category="reporting">
+      <div class="portfolio-item" data-category="reporting">
         <p class="">Incidents and requests management</pn>
         <div class="image">
           <img src="/images/portfolio/reporting-incidents-and-request-management.webp" onclick="handle_click(&#34;https://beta.redlin.se/portfolio/reporting-incidents-and-request-management/&#34;)" alt="eIncidents and requests management">
@@ -198,7 +198,7 @@
         </div>
       </div>
       
-      <div class="shuffle-item" data-category="reporting">
+      <div class="portfolio-item" data-category="reporting">
         <p class="">Server patch status</pn>
         <div class="image">
           <img src="/images/portfolio/reporting-server-patch-status.webp" onclick="handle_click(&#34;https://beta.redlin.se/portfolio/reporting-server-patch-status/&#34;)" alt="fServer patch status">
@@ -208,7 +208,7 @@
         </div>
       </div>
       
-      <div class="shuffle-item" data-category="reporting">
+      <div class="portfolio-item" data-category="reporting">
         <p class="">Server firmware status</pn>
         <div class="image">
           <img src="/images/portfolio/reporting-server-firmware-status.webp" onclick="handle_click(&#34;https://beta.redlin.se/portfolio/reporting-server-firmware-status/&#34;)" alt="gServer firmware status">
@@ -218,7 +218,7 @@
         </div>
       </div>
       
-      <div class="shuffle-item" data-category="private">
+      <div class="portfolio-item" data-category="private">
         <p class="">Barnkollen - An Android application for parents</pn>
         <div class="image">
           <img src="/images/portfolio/other-barnkollen-an-android-application-for-parents.webp" onclick="handle_click(&#34;https://beta.redlin.se/portfolio/other-barnkollen-an-android-application-for-parents/&#34;)" alt="pBarnkollen - An Android application for parents">
@@ -228,7 +228,7 @@
         </div>
       </div>
       
-      <div class="shuffle-item" data-category="reporting">
+      <div class="portfolio-item" data-category="reporting">
         <p class="">Weekly patch report</pn>
         <div class="image">
           <img src="/images/portfolio/reporting-weekly-patch-report.webp" onclick="handle_click(&#34;https://beta.redlin.se/portfolio/reporting-weekly-patch-report/&#34;)" alt="Weekly patch report">
@@ -245,7 +245,7 @@
   function show_checked_category(pageload){
 
     const checked_category = document.querySelector('.button--input:checked').value;
-    const items = document.getElementsByClassName("shuffle-item");
+    const items = document.getElementsByClassName("portfolio-item");
     const promises = [];
 
     for (var i = 0; i < items.length; i++) {

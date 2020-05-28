@@ -41,7 +41,9 @@
 
     
 
-<body id="page-portfolio/reporting-server-firmware-status">
+    
+    
+<body id="page-portfolio-single">
   <div id="content">
   
   <!-- Menu / Header -->
@@ -73,7 +75,6 @@
       </nav>
     </div>
   </header>
-
   <!-- Head Banner -->
 <section class="banner pages opacity-" style="background-image: url('https://beta.redlin.se/images/portfolio/header-single-bg.webp');">
   <div class="block">
@@ -84,41 +85,76 @@
 
 
 
-<section class="portfolio-single-page section-sm fix-portfolio-height-for-footer">
+
+<section class="section">
   <div class="container">
+
     <div class="row">
-      <div class="col-md-6 portfolio-item">
-        <img class="img-responsive w-100 fix-general-image-border-radius" onclick='$(this).next().click()' src="/images/portfolio/reporting-server-firmware-status.webp" alt="">
-        <div class="portfolio-hover" onclick='$(this).children().find("a").click();'>
-          <div class="portfolio-content">
-            <a href="/images/portfolio/reporting-server-firmware-status.webp" class="portfolio-popup"><i class="icon ion-search"></i></a>
-          </div>
+
+      <div class="image">
+        <img class="image" onclick='$(this).next().click()' src="/images/portfolio/reporting-server-firmware-status.webp" alt="">
+      </div>
+
+      <div class="image-overlay" onclick='$(this).children().find("a").click();'>
+        <div class="portfolio-content">
+          <a href="/images/portfolio/reporting-server-firmware-status.webp" class="portfolio-popup"><i class="icon ion-search"></i></a>
         </div>
       </div>
-      <div class="col-md-5 fix-portfolio-single-table-padding">
-        <div class="project-details">
-          <h4>Project Details</h4>
-          <ul>
-            
-            <li><span class="fix-portfolio-single-span-ul-width">Client </span> <strong>Former Employer</strong></li>
-            
-            <li><span class="fix-portfolio-single-span-ul-width">What we did </span> <strong>Presenting server firmware</strong></li>
-            
-            <li><span class="fix-portfolio-single-span-ul-width">Language </span> <strong>Bash</strong></li>
-            
-            <li><span class="fix-portfolio-single-span-ul-width">API </span> <strong>Vendor site</strong></li>
-            
-            <li><span class="fix-portfolio-single-span-ul-width">Year </span> <strong>2018</strong></li>
-            
-            <li><span class="fix-portfolio-single-span-ul-width">Lines of code </span> <strong>~ 500</strong></li>
-            
-          </ul>
+
+      <h4 class="page-header">Project Details</h4>
+
+      <div class="project-details">
+        
+        <div class="project-details-labels">
+          Client
         </div>
+        <div class="project-details-content">
+          <span class="button button--xsmall">Former Employer</span>
+        </div>
+          
+        <div class="project-details-labels">
+          What we did
+        </div>
+        <div class="project-details-content">
+          <span class="button button--xsmall">Presenting server firmware</span>
+        </div>
+          
+        <div class="project-details-labels">
+          Language
+        </div>
+        <div class="project-details-content">
+          <span class="button button--xsmall">Bash</span>
+        </div>
+          
+        <div class="project-details-labels">
+          API
+        </div>
+        <div class="project-details-content">
+          <span class="button button--xsmall">Vendor site</span>
+        </div>
+          
+        <div class="project-details-labels">
+          Year
+        </div>
+        <div class="project-details-content">
+          <span class="button button--xsmall">2018</span>
+        </div>
+          
+        <div class="project-details-labels">
+          Lines of code
+        </div>
+        <div class="project-details-content">
+          <span class="button button--xsmall">~ 500</span>
+        </div>
+          
       </div>
+
     </div>
+
+
     <div class="row">
-      <div class="col-md-12">
-        <div class="project-content mt-50 fix-portfolio-single-ul-override">
+      <div class="">
+        <div class="">
           <h2 id="a-web-front-presenting-server-firmware">A web front presenting server firmware</h2>
 <p>The aim of this project was to visualize each servers firmware version. This was
 collected through the BMC and compared with the latest one available for the specific
