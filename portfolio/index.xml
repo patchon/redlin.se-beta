@@ -12,16 +12,16 @@
     
     
     <item>
-      <title>_Openstack and Ceph complete installation</title>
-      <link>https://beta.redlin.se/portfolio/automation-openstack-ceph/</link>
+      <title>Barnkollen - An Android application for parents</title>
+      <link>https://beta.redlin.se/portfolio/other-barnkollen-an-android-application-for-parents/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://beta.redlin.se/portfolio/automation-openstack-ceph/</guid>
-      <description>A Complete installation of Red Hat Openstack and Red Hat Ceph Storage The goal of this project was a scalable internal cloud platform, and the reason the customer needed this boiled down to a few key points,</description>
+      <guid>https://beta.redlin.se/portfolio/other-barnkollen-an-android-application-for-parents/</guid>
+      <description>An Android app for parents Barnkollen primarily targets parents who wishes to easily control which YouTube-clips their kids should be able to watch. As a parent you simply search for video clips and press the Add button for each video you want to allow.</description>
     </item>
     
     <item>
-      <title>a_Complete Server Creation</title>
+      <title>Complete Server Creation</title>
       <link>https://beta.redlin.se/portfolio/automation-complete-server-creation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -31,34 +31,7 @@
     </item>
     
     <item>
-      <title>b_Infoblox Management</title>
-      <link>https://beta.redlin.se/portfolio/automation-infoblox-management/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://beta.redlin.se/portfolio/automation-infoblox-management/</guid>
-      <description>Automate the process of adding / removing certain Infoblox objects This project involved the automation of adding / removing certain objects from the Infoblox appliance. This was done with the help of the Infoblox-API and was pretty straight forward.</description>
-    </item>
-    
-    <item>
-      <title>cServer reconfiguration</title>
-      <link>https://beta.redlin.se/portfolio/automation-server-reconfiguration/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://beta.redlin.se/portfolio/automation-server-reconfiguration/</guid>
-      <description>Automate the process of reconfiguring an VMware instanse This project involved the automation of reconfiguring an VMware instance. This was done with the help of the VMware-API and was pretty straight forward.</description>
-    </item>
-    
-    <item>
-      <title>dInfrastructure consistency tool</title>
-      <link>https://beta.redlin.se/portfolio/inventorying-infrastructure-consistensy-tool/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://beta.redlin.se/portfolio/inventorying-infrastructure-consistensy-tool/</guid>
-      <description>Inventorying the infrastructure for consistency This project was created to get a good overview of the infrastructure &amp;ldquo;as a whole&amp;rdquo;. This meant querying every part of the infrastructure and then summorize it in a nice manner (later on this was presented in a web gui).</description>
-    </item>
-    
-    <item>
-      <title>eIncidents and requests management</title>
+      <title>Incidents and requests management</title>
       <link>https://beta.redlin.se/portfolio/reporting-incidents-and-request-management/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -67,16 +40,43 @@
     </item>
     
     <item>
-      <title>fServer patch status</title>
-      <link>https://beta.redlin.se/portfolio/reporting-server-patch-status/</link>
+      <title>Infoblox Management</title>
+      <link>https://beta.redlin.se/portfolio/automation-infoblox-management/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://beta.redlin.se/portfolio/reporting-server-patch-status/</guid>
-      <description>A web front displaying servers patch status The aim of this project was to visualize each servers patch status. The definition of patch status in this case was a combination of the running CentOS version and the running kernel.</description>
+      <guid>https://beta.redlin.se/portfolio/automation-infoblox-management/</guid>
+      <description>Automate the process of adding / removing certain Infoblox objects This project involved the automation of adding / removing certain objects from the Infoblox appliance. This was done with the help of the Infoblox-API and was pretty straight forward.</description>
     </item>
     
     <item>
-      <title>gServer firmware status</title>
+      <title>Infrastructure consistency tool</title>
+      <link>https://beta.redlin.se/portfolio/inventorying-infrastructure-consistensy-tool/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://beta.redlin.se/portfolio/inventorying-infrastructure-consistensy-tool/</guid>
+      <description>Inventorying the infrastructure for consistency This project was created to get a good overview of the infrastructure &amp;ldquo;as a whole&amp;rdquo;. This meant querying every part of the infrastructure and then summorize it in a nice manner (later on this was presented in a web gui).</description>
+    </item>
+    
+    <item>
+      <title>Openstack and Ceph complete installation</title>
+      <link>https://beta.redlin.se/portfolio/automation-openstack-ceph/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://beta.redlin.se/portfolio/automation-openstack-ceph/</guid>
+      <description>A Complete installation of Red Hat Openstack and Red Hat Ceph Storage The goal of this project was a scalable internal cloud platform, and the reason the customer needed this boiled down to a few key points,</description>
+    </item>
+    
+    <item>
+      <title>Server configuration</title>
+      <link>https://beta.redlin.se/portfolio/automation-server-reconfiguration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://beta.redlin.se/portfolio/automation-server-reconfiguration/</guid>
+      <description>Automate the process of reconfiguring an VMware instanse This project involved the automation of reconfiguring an VMware instance. This was done with the help of the VMware-API and was pretty straight forward.</description>
+    </item>
+    
+    <item>
+      <title>Server firmware status</title>
       <link>https://beta.redlin.se/portfolio/reporting-server-firmware-status/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -85,12 +85,12 @@
     </item>
     
     <item>
-      <title>pBarnkollen - An Android application for parents</title>
-      <link>https://beta.redlin.se/portfolio/other-barnkollen-an-android-application-for-parents/</link>
+      <title>Server patch status</title>
+      <link>https://beta.redlin.se/portfolio/reporting-server-patch-status/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://beta.redlin.se/portfolio/other-barnkollen-an-android-application-for-parents/</guid>
-      <description>An Android app for parents Barnkollen primarily targets parents who wishes to easily control which YouTube-clips their kids should be able to watch. As a parent you simply search for video clips and press the Add button for each video you want to allow.</description>
+      <guid>https://beta.redlin.se/portfolio/reporting-server-patch-status/</guid>
+      <description>A web front displaying servers patch status The aim of this project was to visualize each servers patch status. The definition of patch status in this case was a combination of the running CentOS version and the running kernel.</description>
     </item>
     
     <item>

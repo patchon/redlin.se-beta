@@ -76,9 +76,9 @@
     </div>
   </header>
   <!-- Head Banner -->
-<section class="banner pages opacity-" style="background-image: url('https://beta.redlin.se/images/portfolio/header-single-bg.webp');">
+<section class="banner pages opacity-4" style="background-image: url('https://beta.redlin.se/images/portfolio/header-single-bg.webp');">
   <div class="block">
-    <h1>a_Complete Server Creation</h1>
+    <h1>Complete Server Creation</h1>
     <p>Automate server creation </p>
   </div>
 </section>
@@ -91,9 +91,7 @@
 
     <div class="row">
 
-      <div class="image">
-        <img class="image" onclick='$(this).next().click()' src="/images/portfolio/automation-complete-server-creation.webp" alt="">
-      </div>
+
 
       <div class="image-overlay" onclick='$(this).children().find("a").click();'>
         <div class="portfolio-content">
@@ -103,51 +101,77 @@
 
       <h4 class="page-header">Project Details</h4>
 
+
+
       <div class="project-details">
         
         <div class="project-details-labels">
-          Client
+          Customer
         </div>
         <div class="project-details-content">
+          
           <span class="button button--xsmall">Former Employer</span>
+          
         </div>
           
         <div class="project-details-labels">
           What we did
         </div>
         <div class="project-details-content">
+          
           <span class="button button--xsmall">Automate the process of server creation</span>
-        </div>
           
-        <div class="project-details-labels">
-          Language
-        </div>
-        <div class="project-details-content">
-          <span class="button button--xsmall">Perl</span>
-        </div>
-          
-        <div class="project-details-labels">
-          API&#39;s
-        </div>
-        <div class="project-details-content">
-          <span class="button button--xsmall"><a href='https://www.vmware.com' target='_new'> VMware</a> / <a href='https://www.infoblox.com' target='_new'>Infoblox</a> / <a href='https://www.theforeman.org' target='_new'>Foreman</a> / <a href='https://www.itrsgroup.com/products/op5-monitor' target='_new'> OP5 Monitor</a></span>
         </div>
           
         <div class="project-details-labels">
           Year
         </div>
         <div class="project-details-content">
+          
           <span class="button button--xsmall">2013</span>
+          
+        </div>
+          
+        <div class="project-details-labels">
+          Language
+        </div>
+        <div class="project-details-content">
+          
+          <span class="button button--xsmall">Perl</span>
+          
+          <span class="button button--xsmall">Bash</span>
+          
+        </div>
+          
+        <div class="project-details-labels">
+          API
+        </div>
+        <div class="project-details-content">
+          
+          <span class="button button--xsmall">VMware vSphere</span>
+          
+          <span class="button button--xsmall">Infoblox</span>
+          
+          <span class="button button--xsmall">Foreman</span>
+          
+          <span class="button button--xsmall">OP5 Monitor</span>
+          
         </div>
           
         <div class="project-details-labels">
           Lines of code
         </div>
         <div class="project-details-content">
+          
           <span class="button button--xsmall">~ 4000</span>
+          
         </div>
           
       </div>
+      <div class="image">
+        <img onclick='$(this).next().click()' src="/images/portfolio/automation-complete-server-creation.webp" alt="">
+      </div>
+
 
     </div>
 
@@ -159,12 +183,12 @@
 <p>This project involved the automation of all the necessary steps that were needed
 to create a server in the customers infrastructure. This involves,</p>
 <ul>
-<li>Aquire an IP address from  <a href='https://www.infoblox.com' target='_new'>Infoblox</a> and create specified aliases (CNAME&rsquo;s)</li>
-<li>Create a new instance in <a href='https://www.vmware.com' target='_new'> VMware</a> with specified hardware (CPU / Memory / Disk)</li>
+<li>Aquire an IP address from Infoblox and create specified aliases (CNAME&rsquo;s)</li>
+<li>Create a new instance in VMware with specified hardware (CPU / Memory / Disk)</li>
 <li>Attach the instance to the specified VLAN interface as well as the correct storage pool</li>
 <li>Boot the server and PXE-install it with the correct profile (this was done via PXE because of legacy reasons)</li>
-<li>Once the server was installed, <a href='https://www.puppet.com' target='_new'> puppet</a> got in place and configured it accordingly</li>
-<li>The final step was to add the newly installed server to the monitoring system <a href='https://www.itrsgroup.com/products/op5-monitor' target='_new'> OP5 Monitor</a></li>
+<li>Once the server was installed, puppet got in place and configured it accordingly</li>
+<li>The final step was to add the newly installed server to the monitoring system OP5 Monitor</li>
 </ul>
 <p>This was achived with a lot of API-calls to the various infrastructure components.
 There is a lot of sanity-checking and error-handling involved since there are so
@@ -174,9 +198,11 @@ mostly about <em>gluing all the parts together</em>.</p>
         </div>
       </div>
     </div>
-    <div class="fix-portfolio-backbtn">
-      <a style="color:#69608b" href="javascript:history.back()"><i class="icon ion-android-arrow-dropleft-circle"></i></a>
+
+    <div class="portfolio-back-button-container">
+      <a href="javascript:history.back()"><i class="fas fa-arrow-circle-left button button--back"></i></a>
     </div>
+
   </div>
 </section>
 

@@ -115,25 +115,30 @@
       
         
         
-        <input  onclick="show_checked_category()" class="button--input" id="portfolio-input-all" type="radio" name="shuffle-filter" value="all"><label for="portfolio-input-all" class="button button--small">All</label>
+        <input  onclick="show_checked_category()" class="button--input" id="portfolio-input-all" type="radio" name="portfolio-button-group" value="all">
+        <label for="portfolio-input-all" class="button button--small">All</label>
+      
+        
+        
+        <input  onclick="show_checked_category()" class="button--input" id="portfolio-input-private" type="radio" name="portfolio-button-group" value="private">
+        <label for="portfolio-input-private" class="button button--small">Private</label>
       
         
         
           
         
-        <input checked onclick="show_checked_category()" class="button--input" id="portfolio-input-automation" type="radio" name="shuffle-filter" value="automation"><label for="portfolio-input-automation" class="button button--small">Automation</label>
+        <input checked onclick="show_checked_category()" class="button--input" id="portfolio-input-automation" type="radio" name="portfolio-button-group" value="automation">
+        <label for="portfolio-input-automation" class="button button--small">Automation</label>
       
         
         
-        <input  onclick="show_checked_category()" class="button--input" id="portfolio-input-inventorying" type="radio" name="shuffle-filter" value="inventorying"><label for="portfolio-input-inventorying" class="button button--small">Inventorying</label>
+        <input  onclick="show_checked_category()" class="button--input" id="portfolio-input-reporting" type="radio" name="portfolio-button-group" value="reporting">
+        <label for="portfolio-input-reporting" class="button button--small">Reporting</label>
       
         
         
-        <input  onclick="show_checked_category()" class="button--input" id="portfolio-input-reporting" type="radio" name="shuffle-filter" value="reporting"><label for="portfolio-input-reporting" class="button button--small">Reporting</label>
-      
-        
-        
-        <input  onclick="show_checked_category()" class="button--input" id="portfolio-input-private" type="radio" name="shuffle-filter" value="private"><label for="portfolio-input-private" class="button button--small">Private</label>
+        <input  onclick="show_checked_category()" class="button--input" id="portfolio-input-inventorying" type="radio" name="portfolio-button-group" value="inventorying">
+        <label for="portfolio-input-inventorying" class="button button--small">Inventorying</label>
       
     </div>
     <div class="portfolio-items">
@@ -141,7 +146,7 @@
       <div class="portfolio-item" data-category="automation">
         <p class="">Openstack and Ceph complete installation</pn>
         <div class="image">
-          <img src="/images/portfolio/automation-openstack-ceph.webp" onclick="handle_click(&#34;https://beta.redlin.se/portfolio/automation-openstack-ceph/&#34;)" alt="_Openstack and Ceph complete installation">
+          <img src="/images/portfolio/automation-openstack-ceph.webp" onclick="handle_click(&#34;https://beta.redlin.se/portfolio/automation-openstack-ceph/&#34;)" alt="Openstack and Ceph complete installation">
           <div class="overlay" onclick="handle_click(&#34;https://beta.redlin.se/portfolio/automation-openstack-ceph/&#34;)">
             <p>Complete installation of both Openstack and Ceph spanning three datacenters </p>
           </div>
@@ -151,7 +156,7 @@
       <div class="portfolio-item" data-category="automation">
         <p class="">Complete Server Creation</pn>
         <div class="image">
-          <img src="/images/portfolio/automation-complete-server-creation.webp" onclick="handle_click(&#34;https://beta.redlin.se/portfolio/automation-complete-server-creation/&#34;)" alt="a_Complete Server Creation">
+          <img src="/images/portfolio/automation-complete-server-creation.webp" onclick="handle_click(&#34;https://beta.redlin.se/portfolio/automation-complete-server-creation/&#34;)" alt="Complete Server Creation">
           <div class="overlay" onclick="handle_click(&#34;https://beta.redlin.se/portfolio/automation-complete-server-creation/&#34;)">
             <p>Automate server creation </p>
           </div>
@@ -161,7 +166,7 @@
       <div class="portfolio-item" data-category="automation">
         <p class="">Infoblox Management</pn>
         <div class="image">
-          <img src="/images/portfolio/automation-infoblox-management.webp" onclick="handle_click(&#34;https://beta.redlin.se/portfolio/automation-infoblox-management/&#34;)" alt="b_Infoblox Management">
+          <img src="/images/portfolio/automation-infoblox-management.webp" onclick="handle_click(&#34;https://beta.redlin.se/portfolio/automation-infoblox-management/&#34;)" alt="Infoblox Management">
           <div class="overlay" onclick="handle_click(&#34;https://beta.redlin.se/portfolio/automation-infoblox-management/&#34;)">
             <p>Automate adding / removal of certain Infoblox objects</p>
           </div>
@@ -169,9 +174,9 @@
       </div>
       
       <div class="portfolio-item" data-category="automation">
-        <p class="">Server reconfiguration</pn>
+        <p class="">Server configuration</pn>
         <div class="image">
-          <img src="/images/portfolio/automation-server-reconfiguration.webp" onclick="handle_click(&#34;https://beta.redlin.se/portfolio/automation-server-reconfiguration/&#34;)" alt="cServer reconfiguration">
+          <img src="/images/portfolio/automation-server-reconfiguration.webp" onclick="handle_click(&#34;https://beta.redlin.se/portfolio/automation-server-reconfiguration/&#34;)" alt="Server configuration">
           <div class="overlay" onclick="handle_click(&#34;https://beta.redlin.se/portfolio/automation-server-reconfiguration/&#34;)">
             <p>Automate the process of reconfiguring an VMware instanse</p>
           </div>
@@ -181,7 +186,7 @@
       <div class="portfolio-item" data-category="inventorying">
         <p class="">Infrastructure consistency tool</pn>
         <div class="image">
-          <img src="/images/portfolio/inventorying-infrastructure-consistensy-tool.webp" onclick="handle_click(&#34;https://beta.redlin.se/portfolio/inventorying-infrastructure-consistensy-tool/&#34;)" alt="dInfrastructure consistency tool">
+          <img src="/images/portfolio/inventorying-infrastructure-consistensy-tool.webp" onclick="handle_click(&#34;https://beta.redlin.se/portfolio/inventorying-infrastructure-consistensy-tool/&#34;)" alt="Infrastructure consistency tool">
           <div class="overlay" onclick="handle_click(&#34;https://beta.redlin.se/portfolio/inventorying-infrastructure-consistensy-tool/&#34;)">
             <p>Inventorying tooling for consistency</p>
           </div>
@@ -189,11 +194,11 @@
       </div>
       
       <div class="portfolio-item" data-category="reporting">
-        <p class="">Incidents and requests management</pn>
+        <p class="">Server firmware status</pn>
         <div class="image">
-          <img src="/images/portfolio/reporting-incidents-and-request-management.webp" onclick="handle_click(&#34;https://beta.redlin.se/portfolio/reporting-incidents-and-request-management/&#34;)" alt="eIncidents and requests management">
-          <div class="overlay" onclick="handle_click(&#34;https://beta.redlin.se/portfolio/reporting-incidents-and-request-management/&#34;)">
-            <p>A web front displaying incidents and requests</p>
+          <img src="/images/portfolio/reporting-server-firmware-status.webp" onclick="handle_click(&#34;https://beta.redlin.se/portfolio/reporting-server-firmware-status/&#34;)" alt="Server firmware status">
+          <div class="overlay" onclick="handle_click(&#34;https://beta.redlin.se/portfolio/reporting-server-firmware-status/&#34;)">
+            <p>A web front presenting server firmware versions</p>
           </div>
         </div>
       </div>
@@ -201,29 +206,9 @@
       <div class="portfolio-item" data-category="reporting">
         <p class="">Server patch status</pn>
         <div class="image">
-          <img src="/images/portfolio/reporting-server-patch-status.webp" onclick="handle_click(&#34;https://beta.redlin.se/portfolio/reporting-server-patch-status/&#34;)" alt="fServer patch status">
+          <img src="/images/portfolio/reporting-server-patch-status.webp" onclick="handle_click(&#34;https://beta.redlin.se/portfolio/reporting-server-patch-status/&#34;)" alt="Server patch status">
           <div class="overlay" onclick="handle_click(&#34;https://beta.redlin.se/portfolio/reporting-server-patch-status/&#34;)">
             <p>A web front displaying patch status for servers</p>
-          </div>
-        </div>
-      </div>
-      
-      <div class="portfolio-item" data-category="reporting">
-        <p class="">Server firmware status</pn>
-        <div class="image">
-          <img src="/images/portfolio/reporting-server-firmware-status.webp" onclick="handle_click(&#34;https://beta.redlin.se/portfolio/reporting-server-firmware-status/&#34;)" alt="gServer firmware status">
-          <div class="overlay" onclick="handle_click(&#34;https://beta.redlin.se/portfolio/reporting-server-firmware-status/&#34;)">
-            <p>A web front presenting server firmware versions</p>
-          </div>
-        </div>
-      </div>
-      
-      <div class="portfolio-item" data-category="private">
-        <p class="">Barnkollen - An Android application for parents</pn>
-        <div class="image">
-          <img src="/images/portfolio/other-barnkollen-an-android-application-for-parents.webp" onclick="handle_click(&#34;https://beta.redlin.se/portfolio/other-barnkollen-an-android-application-for-parents/&#34;)" alt="pBarnkollen - An Android application for parents">
-          <div class="overlay" onclick="handle_click(&#34;https://beta.redlin.se/portfolio/other-barnkollen-an-android-application-for-parents/&#34;)">
-            <p>An app for parents</p>
           </div>
         </div>
       </div>
@@ -234,6 +219,26 @@
           <img src="/images/portfolio/reporting-weekly-patch-report.webp" onclick="handle_click(&#34;https://beta.redlin.se/portfolio/reporting-weekly-patch-report/&#34;)" alt="Weekly patch report">
           <div class="overlay" onclick="handle_click(&#34;https://beta.redlin.se/portfolio/reporting-weekly-patch-report/&#34;)">
             <p>A web front displaying patch reports for servers</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="portfolio-item" data-category="reporting">
+        <p class="">Incidents and requests management</pn>
+        <div class="image">
+          <img src="/images/portfolio/reporting-incidents-and-request-management.webp" onclick="handle_click(&#34;https://beta.redlin.se/portfolio/reporting-incidents-and-request-management/&#34;)" alt="Incidents and requests management">
+          <div class="overlay" onclick="handle_click(&#34;https://beta.redlin.se/portfolio/reporting-incidents-and-request-management/&#34;)">
+            <p>A web front displaying incidents and requests</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="portfolio-item" data-category="private">
+        <p class="">Barnkollen - An Android application for parents</pn>
+        <div class="image">
+          <img src="/images/portfolio/other-barnkollen-an-android-application-for-parents.webp" onclick="handle_click(&#34;https://beta.redlin.se/portfolio/other-barnkollen-an-android-application-for-parents/&#34;)" alt="Barnkollen - An Android application for parents">
+          <div class="overlay" onclick="handle_click(&#34;https://beta.redlin.se/portfolio/other-barnkollen-an-android-application-for-parents/&#34;)">
+            <p>An app for parents</p>
           </div>
         </div>
       </div>

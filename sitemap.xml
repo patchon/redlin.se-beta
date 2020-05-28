@@ -108,7 +108,11 @@
   </url>
   
   <url>
-    <loc>https://beta.redlin.se/portfolio/automation-openstack-ceph/</loc>
+    <loc>https://beta.redlin.se/author/</loc>
+  </url>
+  
+  <url>
+    <loc>https://beta.redlin.se/portfolio/other-barnkollen-an-android-application-for-parents/</loc>
   </url>
   
   <url>
@@ -116,23 +120,7 @@
   </url>
   
   <url>
-    <loc>https://beta.redlin.se/author/</loc>
-  </url>
-  
-  <url>
-    <loc>https://beta.redlin.se/portfolio/automation-infoblox-management/</loc>
-  </url>
-  
-  <url>
     <loc>https://beta.redlin.se/consult-profile/</loc>
-  </url>
-  
-  <url>
-    <loc>https://beta.redlin.se/portfolio/automation-server-reconfiguration/</loc>
-  </url>
-  
-  <url>
-    <loc>https://beta.redlin.se/portfolio/inventorying-infrastructure-consistensy-tool/</loc>
   </url>
   
   <url>
@@ -144,11 +132,11 @@
   </url>
   
   <url>
-    <loc>https://beta.redlin.se/portfolio/reporting-server-patch-status/</loc>
+    <loc>https://beta.redlin.se/portfolio/automation-infoblox-management/</loc>
   </url>
   
   <url>
-    <loc>https://beta.redlin.se/portfolio/reporting-server-firmware-status/</loc>
+    <loc>https://beta.redlin.se/portfolio/inventorying-infrastructure-consistensy-tool/</loc>
   </url>
   
   <url>
@@ -160,6 +148,10 @@
   </url>
   
   <url>
+    <loc>https://beta.redlin.se/portfolio/automation-openstack-ceph/</loc>
+  </url>
+  
+  <url>
     <loc>https://beta.redlin.se/portfolio/</loc>
   </url>
   
@@ -168,7 +160,15 @@
   </url>
   
   <url>
-    <loc>https://beta.redlin.se/portfolio/other-barnkollen-an-android-application-for-parents/</loc>
+    <loc>https://beta.redlin.se/portfolio/automation-server-reconfiguration/</loc>
+  </url>
+  
+  <url>
+    <loc>https://beta.redlin.se/portfolio/reporting-server-firmware-status/</loc>
+  </url>
+  
+  <url>
+    <loc>https://beta.redlin.se/portfolio/reporting-server-patch-status/</loc>
   </url>
   
   <url>
