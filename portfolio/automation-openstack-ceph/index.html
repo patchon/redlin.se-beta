@@ -84,25 +84,11 @@
 </section>
 
 
-
-
 <section class="section">
   <div class="container">
-
     <div class="row">
-
-
-
-      <div class="image-overlay" onclick='$(this).children().find("a").click();'>
-        <div class="portfolio-content">
-          <a href="/images/portfolio/automation-openstack-ceph.webp" class="portfolio-popup"><i class="icon ion-search"></i></a>
-        </div>
-      </div>
-
+      <div class="test">
       <h4 class="page-header">Project Details</h4>
-
-
-
       <div class="project-details">
         
         <div class="project-details-labels">
@@ -175,18 +161,25 @@
         </div>
           
       </div>
-      <div class="image">
-        <img onclick='$(this).next().click()' src="/images/portfolio/automation-openstack-ceph.webp" alt="">
       </div>
 
+      <div class="image">
+        <a href="#project-image">
+          <img src="/images/portfolio/automation-openstack-ceph.webp" alt="Openstack and Ceph complete installation thumbnail">
+        <div class="overlay fix">
+          <p><i class="fas fa-search-plus"></i></p>
+        </div>
+        </a>
+        <a href="#_" class="image-overlay-fullscreen" id="project-image">
+          <img src="/images/portfolio/automation-openstack-ceph.webp" alt="Openstack and Ceph complete installation fullscreen">
+        </a>
+      </div>
 
     </div>
 
 
     <div class="row">
-      <div class="">
-        <div class="">
-          <h2 id="a-complete-installation-of-red-hat-openstack-and-red-hat-ceph-storage">A Complete installation of Red Hat Openstack and Red Hat Ceph Storage</h2>
+      <h2 id="a-complete-installation-of-red-hat-openstack-and-red-hat-ceph-storage">A Complete installation of Red Hat Openstack and Red Hat Ceph Storage</h2>
 <p>The goal of this project was a scalable internal cloud platform, and the reason the
 customer needed this boiled down to a few key points,</p>
 <ul>
@@ -251,17 +244,12 @@ user authentication and authorization (Active Directory, Kerberos and Single Sig
 <li>Created a portal for adminstrating Active Directory users and groups for access to the cloud-solution</li>
 </ul>
 
-        </div>
-      </div>
     </div>
-
     <div class="portfolio-back-button-container">
-      <a href="javascript:history.back()"><i class="fas fa-arrow-circle-left button button--back"></i></a>
+      <i class="fas fa-arrow-circle-left button button--back" onclick="window.location.href = &#34;https://beta.redlin.se&#34; + '/portfolio'"></i>
     </div>
-
   </div>
 </section>
-
 </div>
 
 <!-- Footer -->

@@ -84,25 +84,11 @@
 </section>
 
 
-
-
 <section class="section">
   <div class="container">
-
     <div class="row">
-
-
-
-      <div class="image-overlay" onclick='$(this).children().find("a").click();'>
-        <div class="portfolio-content">
-          <a href="/images/portfolio/automation-infoblox-management.webp" class="portfolio-popup"><i class="icon ion-search"></i></a>
-        </div>
-      </div>
-
+      <div class="test">
       <h4 class="page-header">Project Details</h4>
-
-
-
       <div class="project-details">
         
         <div class="project-details-labels">
@@ -160,34 +146,36 @@
         </div>
           
       </div>
-      <div class="image">
-        <img onclick='$(this).next().click()' src="/images/portfolio/automation-infoblox-management.webp" alt="">
       </div>
 
+      <div class="image">
+        <a href="#project-image">
+          <img src="/images/portfolio/automation-infoblox-management.webp" alt="Infoblox Management thumbnail">
+        <div class="overlay fix">
+          <p><i class="fas fa-search-plus"></i></p>
+        </div>
+        </a>
+        <a href="#_" class="image-overlay-fullscreen" id="project-image">
+          <img src="/images/portfolio/automation-infoblox-management.webp" alt="Infoblox Management fullscreen">
+        </a>
+      </div>
 
     </div>
 
 
     <div class="row">
-      <div class="">
-        <div class="">
-          <h2 id="automate-the-process-of-adding--removing-certain-infoblox-objects">Automate the process of adding / removing certain Infoblox objects</h2>
+      <h2 id="automate-the-process-of-adding--removing-certain-infoblox-objects">Automate the process of adding / removing certain Infoblox objects</h2>
 <p>This project involved the automation of adding / removing certain objects from
 the Infoblox appliance. This was done with the help of the Infoblox-API and was
 pretty straight forward. This project streamlined and standardized these types
 of tasks for the operations team.</p>
 
-        </div>
-      </div>
     </div>
-
     <div class="portfolio-back-button-container">
-      <a href="javascript:history.back()"><i class="fas fa-arrow-circle-left button button--back"></i></a>
+      <i class="fas fa-arrow-circle-left button button--back" onclick="window.location.href = &#34;https://beta.redlin.se&#34; + '/portfolio'"></i>
     </div>
-
   </div>
 </section>
-
 </div>
 
 <!-- Footer -->

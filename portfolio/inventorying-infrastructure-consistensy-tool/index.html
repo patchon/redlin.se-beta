@@ -84,25 +84,11 @@
 </section>
 
 
-
-
 <section class="section">
   <div class="container">
-
     <div class="row">
-
-
-
-      <div class="image-overlay" onclick='$(this).children().find("a").click();'>
-        <div class="portfolio-content">
-          <a href="/images/portfolio/inventorying-infrastructure-consistensy-tool.webp" class="portfolio-popup"><i class="icon ion-search"></i></a>
-        </div>
-      </div>
-
+      <div class="test">
       <h4 class="page-header">Project Details</h4>
-
-
-
       <div class="project-details">
         
         <div class="project-details-labels">
@@ -170,18 +156,25 @@
         </div>
           
       </div>
-      <div class="image">
-        <img onclick='$(this).next().click()' src="/images/portfolio/inventorying-infrastructure-consistensy-tool.webp" alt="">
       </div>
 
+      <div class="image">
+        <a href="#project-image">
+          <img src="/images/portfolio/inventorying-infrastructure-consistensy-tool.webp" alt="Infrastructure consistency tool thumbnail">
+        <div class="overlay fix">
+          <p><i class="fas fa-search-plus"></i></p>
+        </div>
+        </a>
+        <a href="#_" class="image-overlay-fullscreen" id="project-image">
+          <img src="/images/portfolio/inventorying-infrastructure-consistensy-tool.webp" alt="Infrastructure consistency tool fullscreen">
+        </a>
+      </div>
 
     </div>
 
 
     <div class="row">
-      <div class="">
-        <div class="">
-          <h2 id="inventorying-the-infrastructure-for-consistency">Inventorying the infrastructure for consistency</h2>
+      <h2 id="inventorying-the-infrastructure-for-consistency">Inventorying the infrastructure for consistency</h2>
 <p>This project was created to get a good overview of the infrastructure &ldquo;as a whole&rdquo;.
 This meant querying every part of the infrastructure and then summorize it in a
 nice manner (later on this was presented in a web gui).</p>
@@ -189,17 +182,12 @@ nice manner (later on this was presented in a web gui).</p>
 and expansion. With this sort of tooling you (and other stakeholders) can get a
 good overview of your infrastructure.</p>
 
-        </div>
-      </div>
     </div>
-
     <div class="portfolio-back-button-container">
-      <a href="javascript:history.back()"><i class="fas fa-arrow-circle-left button button--back"></i></a>
+      <i class="fas fa-arrow-circle-left button button--back" onclick="window.location.href = &#34;https://beta.redlin.se&#34; + '/portfolio'"></i>
     </div>
-
   </div>
 </section>
-
 </div>
 
 <!-- Footer -->

@@ -84,25 +84,11 @@
 </section>
 
 
-
-
 <section class="section">
   <div class="container">
-
     <div class="row">
-
-
-
-      <div class="image-overlay" onclick='$(this).children().find("a").click();'>
-        <div class="portfolio-content">
-          <a href="/images/portfolio/other-barnkollen-an-android-application-for-parents.webp" class="portfolio-popup"><i class="icon ion-search"></i></a>
-        </div>
-      </div>
-
+      <div class="test">
       <h4 class="page-header">Project Details</h4>
-
-
-
       <div class="project-details">
         
         <div class="project-details-labels">
@@ -166,18 +152,25 @@
         </div>
           
       </div>
-      <div class="image">
-        <img onclick='$(this).next().click()' src="/images/portfolio/other-barnkollen-an-android-application-for-parents.webp" alt="">
       </div>
 
+      <div class="image">
+        <a href="#project-image">
+          <img src="/images/portfolio/other-barnkollen-an-android-application-for-parents.webp" alt="Barnkollen - An Android application for parents thumbnail">
+        <div class="overlay fix">
+          <p><i class="fas fa-search-plus"></i></p>
+        </div>
+        </a>
+        <a href="#_" class="image-overlay-fullscreen" id="project-image">
+          <img src="/images/portfolio/other-barnkollen-an-android-application-for-parents.webp" alt="Barnkollen - An Android application for parents fullscreen">
+        </a>
+      </div>
 
     </div>
 
 
     <div class="row">
-      <div class="">
-        <div class="">
-          <h2 id="an-android-app-for-parents">An Android app for parents</h2>
+      <h2 id="an-android-app-for-parents">An Android app for parents</h2>
 <p><a href="https://play.google.com/store/apps/details?id=app.barnkollen">Barnkollen</a>
 primarily targets parents who wishes to easily control which YouTube-clips their
 kids should be able to watch. As a parent you simply search for video clips and
@@ -189,17 +182,12 @@ Another goal is that the app itself should be really easy to use, both for a
 parent as well as for the kids.</p>
 <p>Please go ahead and <a href="https://play.google.com/store/apps/details?id=app.barnkollen">grab it here</a></p>
 
-        </div>
-      </div>
     </div>
-
     <div class="portfolio-back-button-container">
-      <a href="javascript:history.back()"><i class="fas fa-arrow-circle-left button button--back"></i></a>
+      <i class="fas fa-arrow-circle-left button button--back" onclick="window.location.href = &#34;https://beta.redlin.se&#34; + '/portfolio'"></i>
     </div>
-
   </div>
 </section>
-
 </div>
 
 <!-- Footer -->
