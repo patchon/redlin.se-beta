@@ -272,13 +272,13 @@
 <section class="section work-history">
   <div class="container">
     <header class="line">
-      <i class="fas fa-briefcase"></i><h2 class='title'>Work Experience </h2>
+      <i class="fas fa-briefcase"></i><h2 class='title'>Work Experience</h2>
     </header>
 
     <section class="list-of-work">
       <div class="work">
-        <input id="work-item-0" type="checkbox" class="toggle-item" checked="checked" />
-        <label for="work-item-0" onclick="toggle_el(this)"></label>
+        <input id="work-item-0" type="checkbox" class="toggle-item" checked="checked"/>
+        <label for="work-item-0"></label>
 
         <header>
           <div class="position">Linux System Administrator and Founder</div>
@@ -295,8 +295,8 @@
         <ul class="keywords">
           <li>red hat</li>
           <li>consulting</li>
-          <li>linux system administrator</li>
           <li>automation</li>
+          <li>linux system administrator</li>
           <li>standardize</li>
           <li>development</li>
         </ul>
@@ -320,44 +320,126 @@
                not only for things like products and container images, but also for other parts of the infrastructure.
                Together with you, we want to build an fully automated, daily patched, high availability infrastructure.
             </p>
-            <p class="end">We simply provide expertise and tailored solutions primarily built on Linux and Red Hat products.</p>
+            <p class="spacing">We simply provide expertise and tailored solutions primarily built on Linux and Red Hat products.</p>
           </div>
         </div>
       </div>
+
+      <div class="work">
+        <input id="work-item-1" type="checkbox" class="toggle-item"/>
+        <label for="work-item-1"></label>
+
+        <header>
+          <div class="position">Linux System Administrator</div>
+          <div class="company pipe">TriOptima</div>
+          <div class="date">
+            <span class="startDate">April 2016</span>
+            <span class="endDate"> - November 2019</span>
+          </div>
+          <div>
+            <a target="_blank" href="https://www.trioptima.com">https://www.trioptima.com</a>
+          </div>
+        </header>
+
+        <ul class="keywords">
+          <li>openstack</li>
+          <li>ceph</li>
+          <li>red hat director</li>
+          <li>ansible</li>
+          <li>cloud</li>
+          <li>terraform</li>
+          <li>kerberos</li>
+        </ul>
+
+        <div class="work-description">
+          <div class="summary">
+            <p>
+              My main responsibilities at TriOptima has been the installation, configuration and design of their Openstack and Ceph platform.
+              The setup spans over three data centers and is based on Red Hat Openstack Platform 13 and Red Hat Ceph Storage 3.
+              The design includes everything from different availability zones, storage pools (both local and stretched between multiple data centers),
+              and involves roughly 50 nodes. The deployment of OpenStack is done through the Red Hat Director, while Ceph is being deployed using the
+              Ceph Ansible Playbook. We have chosen this configuration to get an environment that scales and fulfills our internal customers requirements.
+            </p>
+            <p class="spacing">
+              During the implementation I’ve encountered quite a few bugs in various components (neutron, octavia, heat-templates, networkmanager) which
+              have actively been reported upstream (also monkey patched a few things locally to work around numerous deployment issues).
+              On top of that I’ve also built our own internal portal where the users can create, delete and manage access to their projects.
+              Authentication to the portal, and to the cloud, is done via Kerberos (Active Directory) and supports Single Sign On.
+            </p>
+          </div>
+        </div>
+    </div>
+
+
+    <div class="work">
+      <input id="work-item-2" type="checkbox" class="toggle-item"/>
+      <label for="work-item-2"></label>
+
+      <header>
+        <div class="position">Linux System Administrator</div>
+        <div class="company pipe">SMHI</div>
+        <div class="date">
+          <span class="startDate">May 2008</span>
+          <span class="endDate"> - January 2016</span>
+        </div>
+        <div>
+          <a target="_blank" href="https://www.smhi.se">https://www.smhi.se</a>
+        </div>
+      </header>
+
+      <ul class="keywords">
+        <li>puppet</li>
+        <li>foreman</li>
+        <li>cisco ucs</li>
+        <li>op5 monitor</li>
+        <li>automation</li>
+        <li>vmware</li>
+        <li>infoblox</li>
+        <li>nfs</li>
+      </ul>
+
+      <div class="work-description">
+        <div class="summary">
+          <p>
+            My day to day-tasks consisted of managing Red Hat Enterprise Servers and Red Hat Enterprise Clients.
+            Usually it involved making sure everything was up running and that the setups were consistent. This was essentially done by Puppet,
+            Ansible and various automation-scripts (preferable in bash, perl or python).
+          </p>
+          <p class="spacing">
+            I've been a key-player in SMHI's attempt to standardize their Linux Platforms (both for Servers and Clients). The goal was to make sure that
+            every Linux Server and Client would be centrally managed and properly configured to SMHI's infrastructure and policies, that includes,
+          </p>
+        </div>
+
+        <ul class="highlights">
+          <li><p>Authentication (Active Directory, Kerberos, Smart Card, PKCS11, Cisco Anyconnect)</p></li>
+          <li><p>File shares (NFSv3, NFSv4 + Kerberos, automount)</p></li>
+          <li><p>Wireless 802.1x (Certificate enrollment through SCEP)</p></li>
+          <li><p>Fully automated installations and configurations for both Servers and Clients (available for customers through self-service-portals)</p></li>
+        </ul>
+
+        <div class="summary">
+          <p>
+            I've done a lot of scripting to various parts of the infrastructure, this includes Cisco UCS, VMware, Infoblox, HP iLO, Foreman, Puppet,
+            ITRS OP5 Monitor, Cacti, Various CA technologies products, etc.
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+
+
+
+
 
 
     </section>
   </div>
 
 
-
-<script>
-  
-  async function toggle_el(el){
-
-    const div = el.parentElement;
-    const e = div.querySelector(".work-description");
-    const f = document.getElementsByClassName("footer")
-    
-    
-
-    if (e.style.display === "none"){
-      e.style.display = "block";
-      f[0].style.opacity = "0";
-      await sleep(200);
-      f[0].style.opacity = "1";
-    }else{
-      f[0].style.opacity = "0";
-      await sleep(200);
-      f[0].style.opacity = "1";
-      e.style.display = "none";
-    }
-  }
-
-  function sleep(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms));
-  }
-</script>
 
 
 </div>
