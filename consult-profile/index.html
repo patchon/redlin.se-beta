@@ -278,7 +278,7 @@
     <section class="list-of-work">
       <div class="work">
         <input id="work-item-0" type="checkbox" class="toggle-item" checked="checked" />
-        <label for="work-item-0"></label>
+        <label for="work-item-0" onclick="toggle_el(this)"></label>
 
         <header>
           <div class="position">Linux System Administrator and Founder</div>
@@ -329,6 +329,35 @@
     </section>
   </div>
 
+
+
+<script>
+  
+  async function toggle_el(el){
+
+    const div = el.parentElement;
+    const e = div.querySelector(".work-description");
+    const f = document.getElementsByClassName("footer")
+    
+    
+
+    if (e.style.display === "none"){
+      e.style.display = "block";
+      f[0].style.opacity = "0";
+      await sleep(200);
+      f[0].style.opacity = "1";
+    }else{
+      f[0].style.opacity = "0";
+      await sleep(200);
+      f[0].style.opacity = "1";
+      e.style.display = "none";
+    }
+  }
+
+  function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+  }
+</script>
 
 
 </div>
