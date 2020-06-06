@@ -84,7 +84,7 @@
   </div>
 </section>
 
-<section class="section header">
+<section class="section first">
   <div class="container">
     <div class="text">
       <div class="section-title">
@@ -141,19 +141,20 @@
 </section>
 
 <section class="section summary section--muted">
-    <div class="container">
-      <p>My name is Patrik Martinsson and I'm a Linux System Administrator from Stockholm, Sweden.
-         I'm a Linux-enthusiast, active in the community with various bug reports, patches, discussions, etc.
-         I'm always eager to learn new things and can adapt very quickly to various kinds of situations.
-         I’m running my own company called <a href='https://www.redlin.se'>RedLin</a>, specializing on Red Hat products.
-         On top of that I'm also a <a href="https://rhtapps.redhat.com/certifications/badge/verify/6JKMSGM44ZMQPIIRFKGLJELAZIAEQU3CUPSQX2KSDXT6RW46LQ3XCZJWRJNV7ILTXVE4I6VB7OTCG4U5NQYTCNA62RUWOCM34WWBUYQ&#x3D;">Red Hat Certified Engineer</a>.
-      </p>
-    </div>
+  <div class="container">
+    <p>
+      My name is Patrik Martinsson and I'm a Linux System Administrator from Stockholm, Sweden.
+      I'm a Linux-enthusiast, active in the community with various bug reports, patches, discussions, etc.
+      I'm always eager to learn new things and can adapt very quickly to various kinds of situations.
+      I’m running my own company called <a href='https://www.redlin.se'>RedLin</a>, specializing on Red Hat products.
+      On top of that I'm also a <a href="https://rhtapps.redhat.com/certifications/badge/verify/6JKMSGM44ZMQPIIRFKGLJELAZIAEQU3CUPSQX2KSDXT6RW46LQ3XCZJWRJNV7ILTXVE4I6VB7OTCG4U5NQYTCNA62RUWOCM34WWBUYQ&#x3D;">Red Hat Certified Engineer</a>.
+    </p>
+  </div>
 </section>
 
 <section class="section skills">
   <div class="container">
-    <header class="line">
+    <header class="mainsection">
       <i class="fas fa-tools"></i><h2 class='title'>Skills</h2>
     </header>
 
@@ -266,12 +267,13 @@
           <li class=itrs op5 monitor>op5 monitor</li>
         </ul>
       </div>
+    </section>
   </div>
 </section>
 
 <section class="section work-history">
   <div class="container">
-    <header class="line">
+    <header class="mainsection">
       <i class="fas fa-briefcase"></i><h2 class='title'>Work Experience</h2>
     </header>
 
@@ -280,7 +282,7 @@
         <input id="work-item-0" type="checkbox" class="toggle-item" checked="checked"/>
         <label for="work-item-0"></label>
 
-        <header>
+        <header class="subsection">
           <div class="position">Linux System Administrator</div>
           <div class="company pipe">RedLin PM AB</div>
           <div class="date">
@@ -301,7 +303,7 @@
           <li>standardize</li>
         </ul>
 
-        <div class="work-description">
+        <div class="description">
           <div class="summary">
             <p>RedLin is founded and owned by Patrik Martinsson who has been in love with Red Hat for over a decade.
             We help our customers to automate, standardize and develop their infrastructure with the help of Linux and Red Hat products.
@@ -329,7 +331,7 @@
         <input id="work-item-1" type="checkbox" class="toggle-item"/>
         <label for="work-item-1"></label>
 
-        <header>
+        <header class="subsection">
           <div class="position">Linux System Administrator</div>
           <div class="company pipe">TriOptima</div>
           <div class="date">
@@ -351,7 +353,7 @@
           <li>kerberos</li>
         </ul>
 
-        <div class="work-description">
+        <div class="description">
           <div class="summary">
             <p>
               My main responsibilities at TriOptima has been the installation, configuration and design of their Openstack and Ceph platform.
@@ -368,79 +370,109 @@
             </p>
           </div>
         </div>
-    </div>
+      </div>
 
+      <div class="work">
+        <input id="work-item-2" type="checkbox" class="toggle-item"/>
+        <label for="work-item-2"></label>
 
-    <div class="work">
-      <input id="work-item-2" type="checkbox" class="toggle-item"/>
-      <label for="work-item-2"></label>
+        <header class="subsection">
+          <div class="position">Linux System Administrator</div>
+          <div class="company pipe">SMHI</div>
+          <div class="date">
+            <span class="startDate">May 2008</span>
+            <span class="endDate"> - January 2016</span>
+          </div>
+          <div class="website">
+            <a target="_blank" href="https://www.smhi.se">https://www.smhi.se</a>
+          </div>
+        </header>
 
-      <header>
-        <div class="position">Linux System Administrator</div>
-        <div class="company pipe">SMHI</div>
-        <div class="date">
-          <span class="startDate">May 2008</span>
-          <span class="endDate"> - January 2016</span>
-        </div>
-        <div class="website">
-          <a target="_blank" href="https://www.smhi.se">https://www.smhi.se</a>
-        </div>
-      </header>
-
-      <ul class="keywords">
-        <li>vmware</li>
-        <li>cisco ucs</li>
-        <li>op5 monitor</li>
-        <li>automation</li>
-        <li>infoblox</li>
-        <li>puppet</li>
-        <li>foreman</li>
-        <li>nfs</li>
-
-
-      </ul>
-
-      <div class="work-description">
-        <div class="summary">
-          <p>
-            My day to day-tasks consisted of managing Red Hat Enterprise Servers and Red Hat Enterprise Clients.
-            Usually it involved making sure everything was up running and that the setups were consistent. This was essentially done by Puppet,
-            Ansible and various automation-scripts (preferable in bash, perl or python).
-          </p>
-          <p class="spacing">
-            I've been a key-player in SMHI's attempt to standardize their Linux Platforms (both for Servers and Clients). The goal was to make sure that
-            every Linux Server and Client would be centrally managed and properly configured to SMHI's infrastructure and policies, that includes,
-          </p>
-        </div>
-
-        <ul class="highlights">
-          <li><p>Authentication (Active Directory, Kerberos, Smart Card, PKCS11, Cisco Anyconnect)</p></li>
-          <li><p>File shares (NFSv3, NFSv4 + Kerberos, automount)</p></li>
-          <li><p>Wireless 802.1x (Certificate enrollment through SCEP)</p></li>
-          <li><p>Fully automated installations and configurations for both Servers and Clients (available for customers through self-service-portals)</p></li>
+        <ul class="keywords">
+          <li>vmware</li>
+          <li>cisco ucs</li>
+          <li>op5 monitor</li>
+          <li>automation</li>
+          <li>infoblox</li>
+          <li>puppet</li>
+          <li>foreman</li>
+          <li>nfs</li>
         </ul>
 
-        <div class="summary">
-          <p>
-            I've done a lot of scripting to various parts of the infrastructure, this includes Cisco UCS, VMware, Infoblox, HP iLO, Foreman, Puppet,
-            ITRS OP5 Monitor, Cacti, Various CA technologies products, etc.
-          </p>
+        <div class="description">
+          <div class="summary">
+            <p>
+              My day to day-tasks consisted of managing Red Hat Enterprise Servers and Red Hat Enterprise Clients.
+              Usually it involved making sure everything was up running and that the setups were consistent. This was essentially done by Puppet,
+              Ansible and various automation-scripts (preferable in bash, perl or python).
+            </p>
+            <p class="spacing">
+              I've been a key-player in SMHI's attempt to standardize their Linux Platforms (both for Servers and Clients). The goal was to make sure that
+              every Linux Server and Client would be centrally managed and properly configured to SMHI's infrastructure and policies, that includes,
+            </p>
+          </div>
+
+          <ul class="highlights">
+            <li><p>Authentication (Active Directory, Kerberos, Smart Card, PKCS11, Cisco Anyconnect)</p></li>
+            <li><p>File shares (NFSv3, NFSv4 + Kerberos, automount)</p></li>
+            <li><p>Wireless 802.1x (Certificate enrollment through SCEP)</p></li>
+            <li><p>Fully automated installations and configurations for both Servers and Clients (available for customers through self-service-portals)</p></li>
+          </ul>
+
+          <div class="summary">
+            <p>
+              I've done a lot of scripting to various parts of the infrastructure, this includes Cisco UCS, VMware, Infoblox, HP iLO, Foreman, Puppet,
+              ITRS OP5 Monitor, Cacti, Various CA technologies products, etc.
+            </p>
+          </div>
         </div>
-
       </div>
-    </div>
-
-  </section>
-
-
-
-
-
-
-
     </section>
   </div>
+</section>
 
+<section class="section volunteer">
+  <div class="container">
+    <header class="mainsection">
+      <i class="fas fa-hands-helping"></i><h2 class='title'>Volunteer</h2>
+    </header>
+
+    <section class="list-of-volunteers">
+      <div class="volunteer">
+        <input id="volunteer-item-0" type="checkbox" class="toggle-item" checked="checked"/>
+        <label for="volunteer-item-0"></label>
+        <header class="subsection">
+          <div class="position">Linux System Administrator</div>
+          <div class="company pipe">SIDA</div>
+          <div class="date">
+            <span class="startDate">October 2013</span>
+            <span class="endDate"> - November 2013</span>
+          </div>
+          <div class="website">
+            <a target="_blank" href="https://www.sida.se">https://www.sida.se</a>
+          </div>
+        </header>
+
+        <ul class="keywords">
+          <li>request tracker</li>
+          <li>mediawiki</li>
+          <li>virtualization</li>
+        </ul>
+
+        <div class="description">
+          <div class="summary">
+            <p>
+              On behalf of the SIDA-organization I've been visiting the Department of Meteorological Services in Botswana two times.
+              My work there has mostly consisted of deploying Linux Servers and setting up a Request Tracker-system and a wiki. The Biggest
+              challenges with these missions has been the lack of infrastructure, internet access and the fact that everything has to be
+              done while being there, no remote work has been possible.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</section>
 
 
 
