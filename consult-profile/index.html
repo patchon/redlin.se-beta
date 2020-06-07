@@ -19,24 +19,16 @@
   <link rel="preconnect" href="https://www.google-analytics.com">
   <link rel="preconnect" href="https://www.googletagmanager.com">
   <link rel="preconnect" href="https://maps.googleapis.com">
-  <link rel="prefetch" href="/plugins/webfonts/fa/free-fa-regular-400.woff2" as="font">
-  <link rel="prefetch" href="/plugins/webfonts/fa/free-fa-solid-900.woff2"   as="font">
-  <link rel="prefetch" href="/plugins/webfonts/fa/free-fa-brands-400.woff2"  as="font">
-
+  
   <!-- Mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Get to know Patrik">
   <meta name="author" content="Patrik Martinsson RedLin PM AB">
 
-  <!-- Plugins -->
-  <link rel="preload" href="https://beta.redlin.se/plugins/magnific-popup/magnific-popup.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="https://beta.redlin.se/plugins/magnific-popup/magnific-popup.css"></noscript>
-  <link rel="preload" href="https://beta.redlin.se/plugins/slick/slick.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="https://beta.redlin.se/plugins/slick/slick.css"></noscript>
-
   <!-- Main Stylesheet -->
   <link rel="stylesheet" href="https://beta.redlin.se/scss/style.min.css" media="screen">
-  <link rel="preload" href="https://beta.redlin.se/scss/fonts.min.css" as="style" onload="this.rel='stylesheet'">
+  <link rel="preload" as="style" href="https://beta.redlin.se/scss/fonts.min.css">
+  <link rel="stylesheet" href="https://beta.redlin.se/scss/fonts.min.css" media="print" onload="this.media='all'">
 </head>
 
     
@@ -84,62 +76,71 @@
   </div>
 </section>
 
-<section class="section first">
+<div>
+<section class="section first basic-info">
+
   <div class="container">
     <div class="text">
       <div class="section-title">
+        <div>
         <h2 class="name">Patrik Martinsson</h2>
         <h3 class="work">Linux System Administrator</h3>
         <h4 class="location">Stockholm, Sweden</h4>
       </div>
     </div>
-    <div class="image">
-      <img class="picture" src="https://www.redlin.se/images/contact/patrik.webp" alt="Patrik Martinsson" />
+
+    <div class="container">
+      <div class="col">
+        <li class="website">
+          <img class="logo" src="https://www.redlin.se/images/logo-no-text-no-borders.svg">
+          <a target="_blank" target="_blank" class="fix-pixel-perfect" href="https://www.redlin.se">www.redlin.se</a>
+        </li>
+        <li class="email">
+          <i class="fas fa-envelope-open-text"></i>
+          <a href="mailto:patrik@redlin.se">patrik@redlin.se</a>
+        </li>
+        <li class="phone">
+          <i class="fas fa-phone-square-alt"></i>
+          <a href="tel:+46 707 27 64 96">+46 707 27 64 96</a>
+        </li>
+        <li class="linkedin">
+          <i class="fab fa-linkedin"></i>
+          <a target="_blank" href="https://www.linkedin.com/in/patrikmartinsson/">LinkedIn</a>
+        </li>
+      </div>
+      <div class="col">
+        <li class="github">
+          <i class="fab fa-github"></i>
+          <a target="_blank" href="https://github.com/patchon">GitHub</a>
+        </li>
+        <li class="stackoverflow">
+          <i class="fab fa-stack-overflow"></i>
+          <a target="_blank" href="https://stackoverflow.com/users/2253454/patrik-martinsson">Stack Overflow</a>
+        </li>
+        <li class="redhat">
+          <i class="fab fa-redhat"></i>
+          <a target="_blank" href="https://rhtapps.redhat.com/certifications/badge/verify/6JKMSGM44ZMQPIIRFKGLJELAZIAEQU3CUPSQX2KSDXT6RW46LQ3XCZJWRJNV7ILTXVE4I6VB7OTCG4U5NQYTCNA62RUWOCM34WWBUYQ&#x3D;">Certified Engineer</a>
+        </li>
+        <li class="languages">
+          <i class="fas fa-globe-americas"></i>
+          <span>Swedish | English</span>
+        </li>
+      </div>
     </div>
   </div>
+
+
+<div class="image">
+  <img class="picture" src="https://www.redlin.se/images/contact/patrik.webp" alt="Patrik Martinsson" />
+</div>
+
 </section>
+
 
 <section class="section basic-info">
-  <div class="container">
-    <div class="col">
-      <li class="website">
-        <img class="logo" src="https://www.redlin.se/images/logo-no-text-no-borders.svg">
-        <a target="_blank" target="_blank" class="fix-pixel-perfect" href="https://www.redlin.se">www.redlin.se</a>
-      </li>
-      <li class="email">
-        <i class="fas fa-envelope-open-text"></i>
-        <a href="mailto:patrik@redlin.se">patrik@redlin.se</a>
-      </li>
-      <li class="phone">
-        <i class="fas fa-phone-square-alt"></i>
-        <a href="tel:+46 707 27 64 96">+46 707 27 64 96</a>
-      </li>
-      <li class="linkedin">
-        <i class="fab fa-linkedin"></i>
-        <a target="_blank" href="https://www.linkedin.com/in/patrikmartinsson/">LinkedIn</a>
-      </li>
-    </div>
-    <div class="col">
-      <li class="github">
-        <i class="fab fa-github"></i>
-        <a target="_blank" href="https://github.com/patchon">GitHub</a>
-      </li>
-      <li class="stackoverflow">
-        <i class="fab fa-stack-overflow"></i>
-        <a target="_blank" href="https://stackoverflow.com/users/2253454/patrik-martinsson">Stack Overflow</a>
-      </li>
-      <li class="redhat">
-        <i class="fab fa-redhat"></i>
-        <a target="_blank" href="https://rhtapps.redhat.com/certifications/badge/verify/6JKMSGM44ZMQPIIRFKGLJELAZIAEQU3CUPSQX2KSDXT6RW46LQ3XCZJWRJNV7ILTXVE4I6VB7OTCG4U5NQYTCNA62RUWOCM34WWBUYQ&#x3D;">Certified Engineer</a>
-      </li>
-      <li class="languages">
-        <i class="fas fa-globe-americas"></i>
-        <span>Swedish | English</span>
-      </li>
-    </div>
-  </div>
-</section>
 
+</section>
+</div>
 <section class="section summary section--muted">
   <div class="container">
     <p>
