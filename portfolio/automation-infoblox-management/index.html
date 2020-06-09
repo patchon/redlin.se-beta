@@ -165,13 +165,19 @@
       </div>
       <div class="image">
         <a href="#project-image">
-          <img src="/images/portfolio/automation-infoblox-management.webp" alt="Infoblox Management thumbnail">
+          <picture>
+            <source srcset="/images/portfolio/automation-infoblox-management.webp" type="image/webp" alt="Infoblox Management thumbnail">
+            <img src="/images/portfolio/automation-infoblox-management.png" alt=".Title thumbnail">
+          </picture>
         <div class="overlay fix">
           <p><i class="fas fa-search-plus"></i></p>
         </div>
         </a>
         <a href="#_" class="image-overlay-fullscreen" id="project-image">
-          <img src="/images/portfolio/automation-infoblox-management.webp" alt="Infoblox Management fullscreen">
+          <picture>
+            <source srcset="/images/portfolio/automation-infoblox-management.webp" type="image/webp" alt="Infoblox Management fullscreen">
+            <img src="/images/portfolio/automation-infoblox-management.png" alt=".Title fullscreen">
+          </picture>
         </a>
       </div>
     </div>
@@ -201,10 +207,6 @@ of tasks for the operations team.</p>
 </script>
 <script async src='https://www.google-analytics.com/analytics.js'></script>
 <script>
-
-   
-
-
 function check_webp_feature(feature, callback) {
     var kTestImages = {
         lossy: "UklGRiIAAABXRUJQVlA4IBYAAAAwAQCdASoBAAEADsD+JaQAA3AAAAAA",
@@ -222,25 +224,12 @@ function check_webp_feature(feature, callback) {
     };
     img.src = "data:image/webp;base64," + kTestImages[feature];
 }
-
-
-check_webp_feature('lossy', function (feature, isSupported) {
-    if (isSupported) {
-      console.log("yes")
-
-        
-        
-    }else{
-      console.log("nope")
-
-      var x = document.getElementsByClassName("banner");
-      var f = x[0].style.backgroundImage;
-      var res = f.replace("webp", "png");
-
-      var f = x[0].style.backgroundImage = res;
-
-      console.log(f);
-      console.log(res)
+check_webp_feature('lossy', function (feature, supported) {
+    if (!supported) {
+      const x = document.getElementsByClassName("banner");
+      let   f = x[0].style.backgroundImage;
+      const r = f.replace("webp", "png");
+            f = x[0].style.backgroundImage = r;
     }
 });
 </script>

@@ -112,9 +112,10 @@
 <p>On top of all that, we believe in well executed processes, routines, and standardized system overviews to maintain structure and order.</p>
 
       </div>
-      <div class="image">
-        <img loading="lazy" width="460" src="https://beta.redlin.se/images/our-skills/standardization.webp" alt="automation">
-      </div>
+      <picture class="image">
+        <source srcset="/images/our-skills/standardization.webp" type="image/webp">
+        <img loading="lazy" width="460" src="/images/our-skills/standardization.png" alt="automation">
+      </picture>
     </div>
   </section>
 
@@ -122,9 +123,10 @@
   <!-- Skills we know -->
   <section class="section skills-we-know section--muted">
     <div class="container">
-      <div class="image">
-        <img loading="lazy" width="460" src="https://beta.redlin.se/images/our-skills/skill-set.webp" alt="skills">
-      </div>
+      <picture class="image">
+        <source srcset="/images/our-skills/skill-set.webp" type="image/webp">
+        <img loading="lazy" width="460" src="/images/our-skills/skill-set.png" alt="skills">
+      </picture>
       <div class="text">
         <div class="section-title">
           <h2>Skills that we take pride in <u>knowing</u></h2>
@@ -178,9 +180,10 @@
           <li class="skill-list-item">Discord</li>
         </ul>
       </div>
-      <div class="image">
-        <img loading="lazy" width="460" src="https://beta.redlin.se/images/our-skills/integration.webp" alt="api integration">
-      </div>
+      <picture class="image">
+        <source srcset="/images/our-skills/integration.webp" type="image/webp">
+          <img loading="lazy" width="460" src="/images/our-skills/integration.png" alt="api integration">
+      </picture>
     </div>
   </section></div>
 
@@ -195,10 +198,6 @@
 </script>
 <script async src='https://www.google-analytics.com/analytics.js'></script>
 <script>
-
-   
-
-
 function check_webp_feature(feature, callback) {
     var kTestImages = {
         lossy: "UklGRiIAAABXRUJQVlA4IBYAAAAwAQCdASoBAAEADsD+JaQAA3AAAAAA",
@@ -216,25 +215,12 @@ function check_webp_feature(feature, callback) {
     };
     img.src = "data:image/webp;base64," + kTestImages[feature];
 }
-
-
-check_webp_feature('lossy', function (feature, isSupported) {
-    if (isSupported) {
-      console.log("yes")
-
-        
-        
-    }else{
-      console.log("nope")
-
-      var x = document.getElementsByClassName("banner");
-      var f = x[0].style.backgroundImage;
-      var res = f.replace("webp", "png");
-
-      var f = x[0].style.backgroundImage = res;
-
-      console.log(f);
-      console.log(res)
+check_webp_feature('lossy', function (feature, supported) {
+    if (!supported) {
+      const x = document.getElementsByClassName("banner");
+      let   f = x[0].style.backgroundImage;
+      const r = f.replace("webp", "png");
+            f = x[0].style.backgroundImage = r;
     }
 });
 </script>

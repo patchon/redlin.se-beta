@@ -169,13 +169,19 @@
       </div>
       <div class="image">
         <a href="#project-image">
-          <img src="/images/portfolio/reporting-incidents-and-request-management.webp" alt="Incidents and requests management thumbnail">
+          <picture>
+            <source srcset="/images/portfolio/reporting-incidents-and-request-management.webp" type="image/webp" alt="Incidents and requests management thumbnail">
+            <img src="/images/portfolio/reporting-incidents-and-request-management.png" alt=".Title thumbnail">
+          </picture>
         <div class="overlay fix">
           <p><i class="fas fa-search-plus"></i></p>
         </div>
         </a>
         <a href="#_" class="image-overlay-fullscreen" id="project-image">
-          <img src="/images/portfolio/reporting-incidents-and-request-management.webp" alt="Incidents and requests management fullscreen">
+          <picture>
+            <source srcset="/images/portfolio/reporting-incidents-and-request-management.webp" type="image/webp" alt="Incidents and requests management fullscreen">
+            <img src="/images/portfolio/reporting-incidents-and-request-management.png" alt=".Title fullscreen">
+          </picture>
         </a>
       </div>
     </div>
@@ -203,10 +209,6 @@ in a single web interface. This was done via the CA ServiceDesk web services.</p
 </script>
 <script async src='https://www.google-analytics.com/analytics.js'></script>
 <script>
-
-   
-
-
 function check_webp_feature(feature, callback) {
     var kTestImages = {
         lossy: "UklGRiIAAABXRUJQVlA4IBYAAAAwAQCdASoBAAEADsD+JaQAA3AAAAAA",
@@ -224,25 +226,12 @@ function check_webp_feature(feature, callback) {
     };
     img.src = "data:image/webp;base64," + kTestImages[feature];
 }
-
-
-check_webp_feature('lossy', function (feature, isSupported) {
-    if (isSupported) {
-      console.log("yes")
-
-        
-        
-    }else{
-      console.log("nope")
-
-      var x = document.getElementsByClassName("banner");
-      var f = x[0].style.backgroundImage;
-      var res = f.replace("webp", "png");
-
-      var f = x[0].style.backgroundImage = res;
-
-      console.log(f);
-      console.log(res)
+check_webp_feature('lossy', function (feature, supported) {
+    if (!supported) {
+      const x = document.getElementsByClassName("banner");
+      let   f = x[0].style.backgroundImage;
+      const r = f.replace("webp", "png");
+            f = x[0].style.backgroundImage = r;
     }
 });
 </script>
