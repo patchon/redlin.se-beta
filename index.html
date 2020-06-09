@@ -89,7 +89,7 @@
   </header>
 
   <!-- Head Banner -->
-  <section class="banner opacity-5" style="background-image: url('https://beta.redlin.se/images/home/header-bg.webp');">
+  <section class="banner opacity-5" style="background-image: url('https://beta.redlin.se/images/home/header-bg.webp'); background-image: image-set(url('https://beta.redlin.se/images/home/header-bg.png')">
     <div class="container-text">
         <h1>Your <span class="red">Red</span>Hat Linux Expert</h1>
         <p>We love Linux and its Open Source ecosystem</p>
@@ -111,9 +111,10 @@
 <p>RedLin is founded and owned by <a href='https://www.linkedin.com/in/patrikmartinsson/' target='_blank' rel='noreferrer'> Patrik Martinsson</a> who has been in love with Red Hat for over a decade. During that time he has helped (as an employee) both governments and private companies to standardize and develop their infrastructure with the help of Linux and Red Hat products.</p>
 
       </div>
-      <div class="image">
-        <img loading="lazy" width="460"  src="/images/home/about.webp" class="img-responsive fix-general-image-border-radius" alt="">
-      </div>
+      <picture class="image">
+        <source srcset="/images/home/about.webp" type="image/webp">
+        <img loading="lazy" width="460" src="/images/home/about.png" alt="about us">
+      </picture>
     </div>
   </section>
 
@@ -121,9 +122,10 @@
   <!-- Section automation -->
   <section class="section automation section--muted">
     <div class="container">
-     <div class="image">
-        <img loading="lazy" width="250" src="/images/home/automation.webp" class="fix-general-image-border-radius" alt="">
-      </div>
+      <picture class="image">
+        <source srcset="/images/home/automation.webp" type="image/webp">
+        <img loading="lazy" width="250" src="/images/home/automation.png" alt="automation">
+      </picture>
      <div class="text">
       <div class="section-title">
         <h2>We believe in automation</h2>
