@@ -2,101 +2,97 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Our Portfolio on RedLin PM AB | Your Red Hat Linux Expert</title>
-    <link>https://beta.redlin.se/portfolio/</link>
+    <link>https://www.redlin.se/portfolio/</link>
     <description>Recent content in Our Portfolio on RedLin PM AB | Your Red Hat Linux Expert</description>
-    <generator>Hugo -- gohugo.io</generator>
-    
-	<atom:link href="https://beta.redlin.se/portfolio/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://www.redlin.se/portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Barnkollen - An Android application for parents</title>
-      <link>https://beta.redlin.se/portfolio/other-barnkollen-an-android-application-for-parents/</link>
+      <link>https://www.redlin.se/portfolio/other-barnkollen-an-android-application-for-parents/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://beta.redlin.se/portfolio/other-barnkollen-an-android-application-for-parents/</guid>
+      <guid>https://www.redlin.se/portfolio/other-barnkollen-an-android-application-for-parents/</guid>
       <description>An Android app for parents Barnkollen primarily targets parents who wishes to easily control which YouTube-clips their kids should be able to watch. As a parent you simply search for video clips and press the Add button for each video you want to allow.</description>
     </item>
     
     <item>
       <title>Complete Server Creation</title>
-      <link>https://beta.redlin.se/portfolio/automation-complete-server-creation/</link>
+      <link>https://www.redlin.se/portfolio/automation-complete-server-creation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://beta.redlin.se/portfolio/automation-complete-server-creation/</guid>
+      <guid>https://www.redlin.se/portfolio/automation-complete-server-creation/</guid>
       <description>Automate the process of server creation This project involved the automation of all the necessary steps that were needed to create a server in the customers infrastructure. This involves,
  Aquire an IP address from Infoblox and create specified aliases (CNAME&amp;rsquo;s) Create a new instance in VMware with specified hardware (CPU / Memory / Disk) Attach the instance to the specified VLAN interface as well as the correct storage pool Boot the server and PXE-install it with the correct profile (this was done via PXE because of legacy reasons) Once the server was installed, puppet got in place and configured it accordingly The final step was to add the newly installed server to the monitoring system OP5 Monitor  This was achived with a lot of API-calls to the various infrastructure components.</description>
     </item>
     
     <item>
       <title>Incidents and requests management</title>
-      <link>https://beta.redlin.se/portfolio/reporting-incidents-and-request-management/</link>
+      <link>https://www.redlin.se/portfolio/reporting-incidents-and-request-management/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://beta.redlin.se/portfolio/reporting-incidents-and-request-management/</guid>
+      <guid>https://www.redlin.se/portfolio/reporting-incidents-and-request-management/</guid>
       <description>A web front displaying servers patch status The goal of this project was to present all types of cases (incidents / changeorders / requests / tasks / etc) in a single web interface.</description>
     </item>
     
     <item>
       <title>Infoblox Management</title>
-      <link>https://beta.redlin.se/portfolio/automation-infoblox-management/</link>
+      <link>https://www.redlin.se/portfolio/automation-infoblox-management/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://beta.redlin.se/portfolio/automation-infoblox-management/</guid>
+      <guid>https://www.redlin.se/portfolio/automation-infoblox-management/</guid>
       <description>Automate the process of adding / removing certain Infoblox objects This project involved the automation of adding / removing certain objects from the Infoblox appliance. This was done with the help of the Infoblox-API and was pretty straight forward.</description>
     </item>
     
     <item>
       <title>Infrastructure consistency tool</title>
-      <link>https://beta.redlin.se/portfolio/inventorying-infrastructure-consistensy-tool/</link>
+      <link>https://www.redlin.se/portfolio/inventorying-infrastructure-consistensy-tool/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://beta.redlin.se/portfolio/inventorying-infrastructure-consistensy-tool/</guid>
+      <guid>https://www.redlin.se/portfolio/inventorying-infrastructure-consistensy-tool/</guid>
       <description>Inventorying the infrastructure for consistency This project was created to get a good overview of the infrastructure &amp;ldquo;as a whole&amp;rdquo;. This meant querying every part of the infrastructure and then summorize it in a nice manner (later on this was presented in a web gui).</description>
     </item>
     
     <item>
       <title>Openstack and Ceph complete installation</title>
-      <link>https://beta.redlin.se/portfolio/automation-openstack-ceph/</link>
+      <link>https://www.redlin.se/portfolio/automation-openstack-ceph/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://beta.redlin.se/portfolio/automation-openstack-ceph/</guid>
+      <guid>https://www.redlin.se/portfolio/automation-openstack-ceph/</guid>
       <description>A Complete installation of Red Hat Openstack and Red Hat Ceph Storage The goal of this project was a scalable internal cloud platform, and the reason the customer needed this boiled down to a few key points,</description>
     </item>
     
     <item>
       <title>Server configuration</title>
-      <link>https://beta.redlin.se/portfolio/automation-server-reconfiguration/</link>
+      <link>https://www.redlin.se/portfolio/automation-server-reconfiguration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://beta.redlin.se/portfolio/automation-server-reconfiguration/</guid>
+      <guid>https://www.redlin.se/portfolio/automation-server-reconfiguration/</guid>
       <description>Automate the process of reconfiguring an VMware instanse This project involved the automation of reconfiguring an VMware instance. This was done with the help of the VMware-API and was pretty straight forward.</description>
     </item>
     
     <item>
       <title>Server firmware status</title>
-      <link>https://beta.redlin.se/portfolio/reporting-server-firmware-status/</link>
+      <link>https://www.redlin.se/portfolio/reporting-server-firmware-status/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://beta.redlin.se/portfolio/reporting-server-firmware-status/</guid>
+      <guid>https://www.redlin.se/portfolio/reporting-server-firmware-status/</guid>
       <description>A web front presenting server firmware The aim of this project was to visualize each servers firmware version. This was collected through the BMC and compared with the latest one available for the specific model.</description>
     </item>
     
     <item>
       <title>Server patch status</title>
-      <link>https://beta.redlin.se/portfolio/reporting-server-patch-status/</link>
+      <link>https://www.redlin.se/portfolio/reporting-server-patch-status/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://beta.redlin.se/portfolio/reporting-server-patch-status/</guid>
+      <guid>https://www.redlin.se/portfolio/reporting-server-patch-status/</guid>
       <description>A web front displaying servers patch status The aim of this project was to visualize each servers patch status. The definition of patch status in this case was a combination of the running CentOS version and the running kernel.</description>
     </item>
     
     <item>
       <title>Weekly patch report</title>
-      <link>https://beta.redlin.se/portfolio/reporting-weekly-patch-report/</link>
+      <link>https://www.redlin.se/portfolio/reporting-weekly-patch-report/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://beta.redlin.se/portfolio/reporting-weekly-patch-report/</guid>
+      <guid>https://www.redlin.se/portfolio/reporting-weekly-patch-report/</guid>
       <description>A weekly summary of downloaded and applied patches The aim of this project was to visualize a summary (patch report) of which patches that had been applied for which environment. Developers and managers could then easily keep track of where certain patches were applied.</description>
     </item>
     

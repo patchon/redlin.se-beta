@@ -2,83 +2,79 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on RedLin PM AB | Your Red Hat Linux Expert</title>
-    <link>https://beta.redlin.se/tags/</link>
+    <link>https://www.redlin.se/tags/</link>
     <description>Recent content in Tags on RedLin PM AB | Your Red Hat Linux Expert</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 24 Sep 2018 11:07:10 +0600</lastBuildDate>
-    
-	<atom:link href="https://beta.redlin.se/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 24 Sep 2018 11:07:10 +0600</lastBuildDate><atom:link href="https://www.redlin.se/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Advice</title>
-      <link>https://beta.redlin.se/tags/advice/</link>
+      <link>https://www.redlin.se/tags/advice/</link>
       <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
       
-      <guid>https://beta.redlin.se/tags/advice/</guid>
+      <guid>https://www.redlin.se/tags/advice/</guid>
       <description></description>
     </item>
     
     <item>
       <title>AI</title>
-      <link>https://beta.redlin.se/tags/ai/</link>
+      <link>https://www.redlin.se/tags/ai/</link>
       <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
       
-      <guid>https://beta.redlin.se/tags/ai/</guid>
+      <guid>https://www.redlin.se/tags/ai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Android</title>
-      <link>https://beta.redlin.se/tags/android/</link>
+      <link>https://www.redlin.se/tags/android/</link>
       <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
       
-      <guid>https://beta.redlin.se/tags/android/</guid>
+      <guid>https://www.redlin.se/tags/android/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Company</title>
-      <link>https://beta.redlin.se/tags/company/</link>
+      <link>https://www.redlin.se/tags/company/</link>
       <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
       
-      <guid>https://beta.redlin.se/tags/company/</guid>
+      <guid>https://www.redlin.se/tags/company/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mechine</title>
-      <link>https://beta.redlin.se/tags/mechine/</link>
+      <link>https://www.redlin.se/tags/mechine/</link>
       <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
       
-      <guid>https://beta.redlin.se/tags/mechine/</guid>
+      <guid>https://www.redlin.se/tags/mechine/</guid>
       <description></description>
     </item>
     
     <item>
       <title>News</title>
-      <link>https://beta.redlin.se/tags/news/</link>
+      <link>https://www.redlin.se/tags/news/</link>
       <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
       
-      <guid>https://beta.redlin.se/tags/news/</guid>
+      <guid>https://www.redlin.se/tags/news/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Retro</title>
-      <link>https://beta.redlin.se/tags/retro/</link>
+      <link>https://www.redlin.se/tags/retro/</link>
       <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
       
-      <guid>https://beta.redlin.se/tags/retro/</guid>
+      <guid>https://www.redlin.se/tags/retro/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Technology</title>
-      <link>https://beta.redlin.se/tags/technology/</link>
+      <link>https://www.redlin.se/tags/technology/</link>
       <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
       
-      <guid>https://beta.redlin.se/tags/technology/</guid>
+      <guid>https://www.redlin.se/tags/technology/</guid>
       <description></description>
     </item>
     
