@@ -141,7 +141,7 @@
     <div id="thank-you-message">
       Thanks for the email, we'll be in touch!
     </div>
-    <form id="form" onsubmit="return handle_submit(event);" method="POST" action="https://formspree.io/xaydgpnq" target="hidden" data-confirm="Are you sure you want to submit the form ?">
+    <form id="form" method="POST" action="https://formspree.io/xaydgpnq" target="hidden" data-confirm="Are you sure you want to submit the form ?">
       <div id='recaptcha' class="g-recaptcha"
         data-sitekey="6LdWDTAeAAAAAIJ1DAbhbMk-QSmg6GOEJxiYo2fs"
         data-callback="onSubmit"
@@ -167,13 +167,53 @@
     opacity: 0;
   }
 </style>
-<script src="https://www.google.com/recaptcha/api.js"></script>
+<script src="https://www.google.com/recaptcha/api.js?render=6LdWDTAeAAAAAIJ1DAbhbMk-QSmg6GOEJxiYo2fs">
 
-<script>
+  var submitted = false;
+  var tokenCreated = false;
+  var formEl = document.getElementById('form');
 
-  function onSubmit(token) {
-    console.log("yey")
-  }
+  formEl.addEventListener("submit", function (event) {
+
+    
+    if (!tokenCreated) {
+
+      
+      event.preventDefault();
+
+      
+      if (!submitted) {
+        submitted = true;
+        
+        grecaptcha.ready(function() {
+          
+          
+          grecaptcha.execute('6LdWDTAeAAAAAIJ1DAbhbMk-QSmg6GOEJxiYo2fs', {action: 'create_comment'}).then(function (token) {
+            
+            var input = document.createElement("input");
+            input.type = "hidden";
+            input.name = "g-recaptcha-response";
+            input.value = token;
+            formEl.appendChild(input);
+
+            
+            tokenCreated = true;
+            formEl.submit();
+          });
+        });
+      }
+    }else{
+      const a = document.getElementById("thank-you-message");
+      const b = document.getElementById("form");
+
+      await sleep(1000);
+      a.style.maxWidth = "none";
+      a.style.maxHeight = "none";
+      a.style.opacity = "1";
+      b.style.display = "none"
+    }
+
+  });
 
   async function handle_submit(e) {
 
